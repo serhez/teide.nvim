@@ -1,4 +1,4 @@
-# 🏙 Teide
+# 🌋 Teide
 
 A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
 [Lua](https://www.lua.org). Includes
@@ -8,6 +8,33 @@ A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
 [Fish](https://fishshell.com/docs/current/index.html).
 
 This theme is a fork of [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) by [folke](https://github.com/folke). The color palette is different and minor changes have been made to the code, but the codebase of folke's tokyonight is the pillar that has made this color scheme possible. Other than for the color palette, he deserves all the credit. I highly recommend checking out TokyoNight and his other plugins too.
+
+<table width="100%">
+  <tr>
+    <th>Darker</th>
+    <th>Dark</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/6a354696-e137-410d-a52e-453f5921d5a4" />
+    </td>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/b72416cf-8a3a-4013-a810-1852e70df9d6" />
+    </td>
+  </tr>
+  <tr>
+    <th>Dimmed</th>
+    <th>Light</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/ad1f7ffe-c837-4e3f-99b7-e2b5627c7451" />
+    </td>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/36b84bf7-33fd-4388-b261-ba2eb837aec8" />
+    </td>
+  </tr>
+</table>
 
 ## ✨ Features
 
