@@ -1,0 +1,45 @@
+[colors]
+foreground = "#4c545d"
+background = "#e0e4ea"
+cursor_bg = "#4c545d"
+cursor_border = "#4c545d"
+cursor_fg = "#e0e4ea"
+selection_bg = "#bdc2d4"
+selection_fg = "#4c545d"
+split = "#007496"
+compose_cursor = "#a25f00"
+scrollbar_thumb = "#c0c6d3"
+
+ansi = ["#b3b6bb", "#f62466", "#00663d", "#695b29", "#007496", "#805bff", "#006b77", "#6172b0"]
+brights = ["#a1a6c5", "#ce2348", "#376659", "#6c5800", "#146370", "#be00a2", "#006263", "#4c545d"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#ebedf1"
+background = "#e0e4ea"
+
+[colors.tab_bar.active_tab]
+fg_color = "#ebedf1"
+bg_color = "#007496"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#8990b3"
+bg_color = "#c0c6d3"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#007496"
+bg_color = "#c0c6d3"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#007496"
+bg_color = "#e0e4ea"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#007496"
+bg_color = "#e0e4ea"
+
+[metadata]
+aliases = []
+author = "folke"
+name = "teide_light"

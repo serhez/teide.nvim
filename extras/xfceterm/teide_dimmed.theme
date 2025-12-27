@@ -1,0 +1,9 @@
+[Scheme]
+Name="teide_dimmed"
+ColorBackground=#22282F
+ColorForeground=#E7EAEE
+
+ColorSelectionBackground=#363d4f
+ColorSelection=#E7EAEE
+
+ColorPalette=#1b2026;#F97791;#38FFA5;#FFDB70;#5CCEFF;#FFAFEB;#0AE7FF;#a9b1d6;#414868;#F97791;#38FFA5;#FFDB70;#5CCEFF;#FFAFEB;#0AE7FF;#E7EAEE

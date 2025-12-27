@@ -1,0 +1,46 @@
+# -----------------------------------------------------------------------------
+# Teide Alacritty Colors
+# Theme: Teide Light
+# Upstream: https://github.com/folke/teide.nvim/raw/main/extras/alacritty/teide_light.toml
+# -----------------------------------------------------------------------------
+
+# Default colors
+[colors.primary]
+background = '#e0e4ea'
+foreground = '#4c545d'
+
+#[colors.cursor]
+#cursor = '#4c545d'
+#text = '#e0e4ea'
+
+# Normal colors
+[colors.normal]
+black = '#b3b6bb'
+red = '#f62466'
+green = '#00663d'
+yellow = '#695b29'
+blue = '#007496'
+magenta = '#805bff'
+cyan = '#006b77'
+white = '#6172b0'
+
+# Bright colors
+[colors.bright]
+black = '#a1a6c5'
+red = '#ce2348'
+green = '#376659'
+yellow = '#6c5800'
+blue = '#146370'
+magenta = '#be00a2'
+cyan = '#006263'
+white = '#4c545d'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#a25f00'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#ce2348'
+

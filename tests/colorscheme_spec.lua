@@ -1,5 +1,5 @@
-local Config = require("tokyonight.config")
-local Init = require("tokyonight")
+local Config = require("teide.config")
+local Init = require("teide")
 
 before_each(function()
   vim.o.background = "dark"
@@ -17,68 +17,68 @@ end)
 describe("loading respects vim.o.background", function()
   it("= dark", function()
     vim.o.background = "dark"
-    vim.cmd.colorscheme("tokyonight")
+    vim.cmd.colorscheme("teide")
     assert.same("dark", vim.o.background)
-    assert.same("tokyonight-moon", vim.g.colors_name)
+    assert.same("teide-dimmed", vim.g.colors_name)
   end)
 
   it("= light", function()
     vim.o.background = "light"
-    vim.cmd.colorscheme("tokyonight")
+    vim.cmd.colorscheme("teide")
     assert.same("light", vim.o.background)
-    assert.same("tokyonight-day", vim.g.colors_name)
+    assert.same("teide-light", vim.g.colors_name)
   end)
 
-  it("= dark with night", function()
+  it("= dark with dark", function()
     vim.o.background = "dark"
-    vim.cmd.colorscheme("tokyonight-night")
+    vim.cmd.colorscheme("teide-dark")
     assert.same("dark", vim.o.background)
-    assert.same("tokyonight-night", vim.g.colors_name)
+    assert.same("teide-dark", vim.g.colors_name)
   end)
 
-  it("= dark with day", function()
+  it("= dark with light", function()
     vim.o.background = "dark"
-    vim.cmd.colorscheme("tokyonight-day")
+    vim.cmd.colorscheme("teide-light")
     assert.same("light", vim.o.background)
-    assert.same("tokyonight-day", vim.g.colors_name)
+    assert.same("teide-light", vim.g.colors_name)
   end)
 
-  it("= light with night", function()
+  it("= light with dark", function()
     vim.o.background = "light"
-    vim.cmd.colorscheme("tokyonight-night")
+    vim.cmd.colorscheme("teide-dark")
     assert.same("dark", vim.o.background)
-    assert.same("tokyonight-night", vim.g.colors_name)
+    assert.same("teide-dark", vim.g.colors_name)
   end)
 
-  it("= light with day", function()
+  it("= light with light", function()
     vim.o.background = "light"
-    vim.cmd.colorscheme("tokyonight-day")
+    vim.cmd.colorscheme("teide-light")
     assert.same("light", vim.o.background)
-    assert.same("tokyonight-day", vim.g.colors_name)
+    assert.same("teide-light", vim.g.colors_name)
   end)
 
   it(" and switches to light", function()
     vim.o.background = "dark"
-    vim.cmd.colorscheme("tokyonight-night")
+    vim.cmd.colorscheme("teide-dark")
     vim.o.background = "light"
     assert.same("light", vim.o.background)
-    assert.same("tokyonight-day", vim.g.colors_name)
+    assert.same("teide-light", vim.g.colors_name)
   end)
 
   it(" and switches to dark", function()
     vim.o.background = "light"
-    vim.cmd.colorscheme("tokyonight")
+    vim.cmd.colorscheme("teide")
     vim.o.background = "dark"
     assert.same("dark", vim.o.background)
-    assert.same("tokyonight-moon", vim.g.colors_name)
+    assert.same("teide-dimmed", vim.g.colors_name)
   end)
 
   it(" and remembers dark", function()
     vim.o.background = "dark"
-    vim.cmd.colorscheme("tokyonight-night")
+    vim.cmd.colorscheme("teide-dark")
     vim.o.background = "light"
     vim.o.background = "dark"
     assert.same("dark", vim.o.background)
-    assert.same("tokyonight-night", vim.g.colors_name)
+    assert.same("teide-dark", vim.g.colors_name)
   end)
 end)

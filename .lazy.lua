@@ -1,14 +1,14 @@
 local M = {
-  module = "tokyonight",
-  colorscheme = "tokyonight",
-  opts = { style = "moon", plugins = { all = true } },
+  module = "teide",
+  colorscheme = "teide",
+  opts = { style = "dimmed", plugins = { all = true } },
   globals = { vim = vim },
   cache = {}, ---@type table<string, boolean>
 }
 
 function M.reset()
-  require("tokyonight.util").cache.clear()
-  local colors = require("tokyonight.colors").setup()
+  require("teide.util").cache.clear()
+  local colors = require("teide.colors").setup()
   M.globals.colors = colors
   M.globals.c = colors
 end
@@ -31,10 +31,10 @@ local function reload()
   local colorscheme = vim.g.colors_name or M.colorscheme
   colorscheme = colorscheme:find(M.colorscheme) and colorscheme or M.colorscheme
   vim.cmd.colorscheme(colorscheme)
-  local hi = require("mini.hipatterns")
-  for _, buf in ipairs(require("mini.hipatterns").get_enabled_buffers()) do
-    hi.update(buf)
-  end
+  -- local hi = require("mini.hipatterns")
+  -- for _, buf in ipairs(require("mini.hipatterns").get_enabled_buffers()) do
+  --   hi.update(buf)
+  -- end
 end
 reload = vim.schedule_wrap(reload)
 

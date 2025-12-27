@@ -1,0 +1,9 @@
+[Scheme]
+Name="teide_light"
+ColorBackground=#e0e4ea
+ColorForeground=#4c545d
+
+ColorSelectionBackground=#bdc2d4
+ColorSelection=#4c545d
+
+ColorPalette=#b3b6bb;#f62466;#00663d;#6c5800;#007496;#be00a2;#006b77;#6172b0;#a1a6c5;#f62466;#00663d;#6c5800;#007496;#be00a2;#006b77;#4c545d

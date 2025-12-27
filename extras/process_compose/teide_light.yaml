@@ -1,0 +1,36 @@
+style:
+  name: teide_light
+  body:
+    fgColor: '#4c545d'
+    bgColor: '#ebedf1'
+    secondaryTextColor: '#6172b0'
+    tertiaryTextColor: '${fg_visual}'
+    borderColor: '#99a3b8'
+  stat_table:
+    keyFgColor: '#6c5800'
+    valueFgColor: '#4c545d'
+    logoColor: '#6c5800'
+  proc_table:
+    fgColor: '#007496'
+    fgWarning: '#6c5800'
+    fgPending: '#8990b3'
+    fgCompleted: '#00663d'
+    fgError: '#ce2348'
+    headerFgColor: '#4c545d'
+  help:
+    fgColor: '#0075bd'
+    keyColor: '#4c545d'
+    hlColor: '#00663d'
+    categoryFgColor: '#13658a'
+  dialog:
+    fgColor: '#0075bd'
+    bgColor: '#b3b6bb'
+    contrastBgColor: '#e0e4ea'
+    attentionBgColor: '#ce2348'
+    buttonFgColor: '#b3b6bb'
+    buttonBgColor: '#c0c6d3'
+    buttonFocusFgColor: '#b3b6bb'
+    buttonFocusBgColor: '#007496'
+    labelFgColor: '#6c5800'
+    fieldFgColor: '#b3b6bb'
+    fieldBgColor: '#8db4ea'

@@ -1,0 +1,38 @@
+# Teide color theme for Zathura
+# Swaps Foreground for Background to get a light version if the user prefers
+#
+# Teide color theme
+#
+set notification-error-bg "#f62466"
+set notification-error-fg "#4c545d"
+set notification-warning-bg "#6c5800"
+set notification-warning-fg "#a1a6c5"
+set notification-bg "#e0e4ea"
+set notification-fg "#4c545d"
+set completion-bg "#e0e4ea"
+set completion-fg "#6172b0"
+set completion-group-bg "#e0e4ea"
+set completion-group-fg "#6172b0"
+set completion-highlight-bg "#a1a6c5"
+set completion-highlight-fg "#4c545d"
+set index-bg "#e0e4ea"
+set index-fg "#4c545d"
+set index-active-bg "#a1a6c5"
+set index-active-fg "#4c545d"
+set inputbar-bg "#e0e4ea"
+set inputbar-fg "#4c545d"
+set statusbar-bg "#e0e4ea"
+set statusbar-fg "#4c545d"
+set highlight-color "#6c5800"
+set highlight-active-color "#00663d"
+set default-bg "#e0e4ea"
+set default-fg "#4c545d"
+set render-loading true
+set render-loading-fg "#e0e4ea"
+set render-loading-bg "#4c545d"
+#
+# Recolor mode settings
+# <C-r> to switch modes
+#
+set recolor-lightcolor "#e0e4ea"
+set recolor-darkcolor "#4c545d"

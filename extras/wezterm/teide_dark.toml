@@ -1,0 +1,45 @@
+[colors]
+foreground = "#E7EAEE"
+background = "#171B20"
+cursor_bg = "#E7EAEE"
+cursor_border = "#E7EAEE"
+cursor_fg = "#171B20"
+selection_bg = "#2f3546"
+selection_fg = "#E7EAEE"
+split = "#5CCEFF"
+compose_cursor = "#FFA75A"
+scrollbar_thumb = "#2C313A"
+
+ansi = ["#12161a", "#F97791", "#38FFA5", "#F7D96C", "#5CCEFF", "#AE9EFF", "#0AE7FF", "#a9b1d6"]
+brights = ["#414868", "#F5335A", "#86EACF", "#FFDB70", "#9BEAFD", "#FFAFEB", "#00FBFF", "#E7EAEE"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#111418"
+background = "#171B20"
+
+[colors.tab_bar.active_tab]
+fg_color = "#111418"
+bg_color = "#5CCEFF"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#545c7e"
+bg_color = "#2C313A"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#5CCEFF"
+bg_color = "#2C313A"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#5CCEFF"
+bg_color = "#171B20"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#5CCEFF"
+bg_color = "#171B20"
+
+[metadata]
+aliases = []
+author = "folke"
+name = "teide_dark"

@@ -1,0 +1,26 @@
+{
+    "name": "Teide",
+    "comment": "",
+    "use-theme-colors": false,
+    "foreground-color": "#E7EAEE",
+    "background-color": "#171B20",
+    "palette": [
+        "#12161a",
+        "#F97791",
+        "#38FFA5",
+        "#FFDB70",
+        "#5CCEFF",
+        "#FFAFEB",
+        "#0AE7FF",
+        "#a9b1d6",
+        "#414868",
+        "#F97791",
+        "#38FFA5",
+        "#FFDB70",
+        "#5CCEFF",
+        "#FFAFEB",
+        "#0AE7FF",
+        "#E7EAEE"
+    ]
+}
+  

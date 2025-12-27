@@ -1,0 +1,12 @@
+[delta]
+  minus-style                   = syntax "#4f212f"
+  minus-non-emph-style          = syntax "#4f212f"
+  minus-emph-style              = syntax "#7b263a"
+  minus-empty-line-marker-style = syntax "#4f212f"
+  line-numbers-minus-style      = "#ED4567"
+  plus-style                    = syntax "#294145"
+  plus-non-emph-style           = syntax "#294145"
+  plus-emph-style               = syntax "#3b696c"
+  plus-empty-line-marker-style  = syntax "#294145"
+  line-numbers-plus-style       = "#14CC92"
+  line-numbers-zero-style       = "#474E5C"
