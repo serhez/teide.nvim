@@ -1,7 +1,7 @@
 module.exports =  {
   plain: {
     color: "#4c545d",
-    backgroundColor: "#e0e4ea",
+    backgroundColor: "#d4dbe4",
   },
   styles: [
     {
@@ -19,7 +19,7 @@ module.exports =  {
     {
       types: ["symbol"],
       style: {
-        color: "#0075bd",
+        color: "#0074ba",
       },
     },
     {
@@ -49,7 +49,7 @@ module.exports =  {
     {
       types: ["constant", "boolean"],
       style: {
-        color: "#a25f00",
+        color: "#b55e00",
       },
     },
     {

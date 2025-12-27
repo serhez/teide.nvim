@@ -1,27 +1,27 @@
 local colors = {
   _name = "teide_dark",
   _style = "dark",
-  bg = "#171B20",
-  bg_dark = "#111418",
-  bg_darker = "#0f1215",
-  bg_dimmed = "#14171b",
-  bg_float = "#0f1215",
+  bg = "#1D2228",
+  bg_dark = "#161a1e",
+  bg_darker = "#13161a",
+  bg_dimmed = "#191d22",
+  bg_float = "#13161a",
   bg_highlight = "#2C313A",
-  bg_popup = "#111418",
+  bg_popup = "#161a1e",
   bg_search = "#00648F",
-  bg_sidebar = "#111418",
-  bg_statusline = "#111418",
-  bg_visual = "#2f3546",
-  black = "#12161a",
+  bg_sidebar = "#161a1e",
+  bg_statusline = "#161a1e",
+  bg_visual = "#33394a",
+  black = "#171b20",
   blue = "#5CCEFF",
   blue0 = "#00648F",
-  blue1 = "#85BCFF",
+  blue1 = "#89BEFF",
   blue2 = "#9DA9E7",
   blue5 = "#AFDBFD",
-  blue6 = "#9BEAFD",
+  blue6 = "#AFDBFD",
   blue7 = "#254365",
-  border = "#12161a",
-  border_highlight = "#6f9cd2",
+  border = "#171b20",
+  border_highlight = "#739fd4",
   comment = "#586172",
   cyan = "#0AE7FF",
   cyan2 = "#00FBFF",
@@ -30,12 +30,12 @@ local colors = {
   dark6 = "#8E98A8",
   dark7 = "#BFC7D1",
   diff = {
-    add = "#294145",
-    change = "#181f27",
-    delete = "#4f212f",
+    add = "#2e474b",
+    change = "#1e252e",
+    delete = "#542836",
     text = "#254365"
   },
-  error = "#F5335A",
+  error = "#F73B61",
   fg = "#E7EAEE",
   fg_dark = "#a9b1d6",
   fg_darker = "#919BCA",
@@ -44,54 +44,54 @@ local colors = {
   fg_sidebar = "#a9b1d6",
   fg_sidebar_inactive = "#919BCA",
   git = {
-    add = "#14CC92",
-    change = "#00A7F5",
-    delete = "#ED4567",
+    add = "#1BB16E",
+    change = "#2AA9DF",
+    delete = "#ED3A5E",
     ignore = "#545c7e"
   },
   green = "#38FFA5",
   green1 = "#86EACF",
   green2 = "#68C9C9",
-  hint = "#41F1D1",
+  hint = "#41FFDC",
   info = "#0AE7FF",
   magenta = "#FFAFEB",
-  magenta2 = "#AE9EFF",
+  magenta2 = "#B0A0FF",
   none = "NONE",
-  orange = "#FFA75A",
-  orange2 = "#FFCA74",
+  orange = "#FF9858",
+  orange1 = "#FF924E",
   purple = "#F7D96C",
-  rainbow = { "#38FFA5", "#5CCEFF", "#AE9EFF", "#FFDB70", "#F97791", "#41F1D1", "#F7D96C", "#FFA75A" },
+  rainbow = { "#38FFA5", "#5CCEFF", "#B0A0FF", "#FFE26C", "#F97791", "#41FFDC", "#F7D96C", "#FF9858" },
   red = "#F97791",
-  red1 = "#F5335A",
-  teal = "#41F1D1",
+  red1 = "#F73B61",
+  teal = "#41FFDC",
   terminal = {
-    black = "#12161a",
+    black = "#171b20",
     black_bright = "#414868",
     blue = "#5CCEFF",
-    blue_bright = "#9BEAFD",
+    blue_bright = "#89BEFF",
     cyan = "#0AE7FF",
     cyan_bright = "#00FBFF",
     green = "#38FFA5",
-    green_bright = "#86EACF",
-    magenta = "#AE9EFF",
+    green_bright = "#41FFDC",
+    magenta = "#B0A0FF",
     magenta_bright = "#FFAFEB",
     red = "#F97791",
-    red_bright = "#F5335A",
+    red_bright = "#F73B61",
     white = "#a9b1d6",
     white_bright = "#E7EAEE",
-    yellow = "#F7D96C",
-    yellow_bright = "#FFDB70"
+    yellow = "#FFCB77",
+    yellow_bright = "#FFE26C"
   },
   terminal_black = "#414868",
   todo = "#5CCEFF",
-  warning = "#FFDB70",
-  yellow = "#FFDB70",
-  yellow1 = "#F7D96C"
+  warning = "#FFE26C",
+  yellow = "#FFE26C",
+  yellow1 = "#FFCB77"
 }
 
 local highlights = {
   ["@HlargsNamedParams"] = {
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   ["@annotation"] = "PreProc",
   ["@attribute"] = "PreProc",
@@ -101,31 +101,31 @@ local highlights = {
   ["@character.special"] = "SpecialChar",
   ["@comment"] = "Comment",
   ["@comment.error"] = {
-    fg = "#F5335A"
+    fg = "#F73B61"
   },
   ["@comment.hint"] = {
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   ["@comment.info"] = {
     fg = "#0AE7FF"
   },
   ["@comment.note"] = {
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   ["@comment.todo"] = {
     fg = "#5CCEFF"
   },
   ["@comment.warning"] = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   ["@constant"] = "Constant",
   ["@constant.builtin"] = "Boolean",
   ["@constant.macro"] = "Define",
   ["@constructor"] = {
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   ["@constructor.builtin"] = {
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   ["@constructor.tsx"] = {
     fg = "#0AE7FF"
@@ -155,7 +155,7 @@ local highlights = {
     fg = "#F97791"
   },
   ["@keyword.import"] = {
-    fg = "#AE9EFF"
+    fg = "#B0A0FF"
   },
   ["@keyword.operator"] = "@operator",
   ["@keyword.repeat"] = "Repeat",
@@ -176,7 +176,7 @@ local highlights = {
   ["@lsp.type.formatSpecifier"] = "@markup.list",
   ["@lsp.type.generic"] = "@variable",
   ["@lsp.type.interface"] = {
-    fg = "#a2cafa"
+    fg = "#a5cbfa"
   },
   ["@lsp.type.keyword"] = "@keyword",
   ["@lsp.type.lifetime"] = "@keyword.storage",
@@ -191,7 +191,7 @@ local highlights = {
   ["@lsp.type.string"] = "@string",
   ["@lsp.type.typeAlias"] = "@type.definition",
   ["@lsp.type.unresolvedReference"] = {
-    sp = "#F5335A",
+    sp = "#F73B61",
     undercurl = true
   },
   ["@lsp.type.variable"] = {},
@@ -207,10 +207,10 @@ local highlights = {
   ["@lsp.typemod.string.injected"] = "@string",
   ["@lsp.typemod.struct.defaultLibrary"] = "@type.builtin",
   ["@lsp.typemod.type.defaultLibrary"] = {
-    fg = "#6f9cd2"
+    fg = "#739fd4"
   },
   ["@lsp.typemod.typeAlias.defaultLibrary"] = {
-    fg = "#6f9cd2"
+    fg = "#739fd4"
   },
   ["@lsp.typemod.variable.callable"] = "@function",
   ["@lsp.typemod.variable.defaultLibrary"] = "@variable.builtin",
@@ -236,12 +236,12 @@ local highlights = {
   ["@markup.heading.3.markdown"] = {
     bg = "#303940",
     bold = true,
-    fg = "#AE9EFF"
+    fg = "#B0A0FF"
   },
   ["@markup.heading.4.markdown"] = {
     bg = "#233745",
     bold = true,
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   ["@markup.heading.5.markdown"] = {
     bg = "#33334e",
@@ -251,7 +251,7 @@ local highlights = {
   ["@markup.heading.6.markdown"] = {
     bg = "#30304b",
     bold = true,
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   ["@markup.heading.7.markdown"] = {
     bg = "#3a343f",
@@ -261,13 +261,13 @@ local highlights = {
   ["@markup.heading.8.markdown"] = {
     bg = "#393043",
     bold = true,
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   ["@markup.italic"] = {
     italic = true
   },
   ["@markup.link"] = {
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   ["@markup.link.label"] = "SpecialChar",
   ["@markup.link.label.symbol"] = "Identifier",
@@ -280,7 +280,7 @@ local highlights = {
   },
   ["@markup.list.markdown"] = {
     bold = true,
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   ["@markup.list.unchecked"] = {
     fg = "#5CCEFF"
@@ -302,7 +302,7 @@ local highlights = {
   },
   ["@module"] = "Include",
   ["@module.builtin"] = {
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   ["@namespace.builtin"] = "@variable.builtin",
   ["@none"] = {},
@@ -350,7 +350,7 @@ local highlights = {
   },
   ["@type"] = "Type",
   ["@type.builtin"] = {
-    fg = "#FFCA74"
+    fg = "#FFCB77"
   },
   ["@type.definition"] = "Typedef",
   ["@type.qualifier"] = "@keyword",
@@ -358,22 +358,22 @@ local highlights = {
     fg = "#E7EAEE"
   },
   ["@variable.builtin"] = {
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   ["@variable.member"] = {
     fg = "#BFC7D1"
   },
   ["@variable.parameter"] = {
-    fg = "#9BEAFD"
+    fg = "#AFDBFD"
   },
   ["@variable.parameter.builtin"] = {
-    fg = "#FFCA74"
+    fg = "#FFCB77"
   },
   ALEErrorSign = {
-    fg = "#F5335A"
+    fg = "#F73B61"
   },
   ALEWarningSign = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   AerialArrayIcon = "LspKindArray",
   AerialBooleanIcon = "LspKindBoolean",
@@ -421,24 +421,24 @@ local highlights = {
     fg = "#0AE7FF"
   },
   AlphaFooter = {
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   AlphaHeader = {
     fg = "#5CCEFF"
   },
   AlphaHeaderLabel = {
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   AlphaShortcut = {
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   BlinkCmpDoc = {
-    bg = "#0f1215",
+    bg = "#13161a",
     fg = "#E7EAEE"
   },
   BlinkCmpDocBorder = {
-    bg = "#0f1215",
-    fg = "#6f9cd2"
+    bg = "#13161a",
+    fg = "#739fd4"
   },
   BlinkCmpGhostText = {
     fg = "#414868"
@@ -448,14 +448,14 @@ local highlights = {
   BlinkCmpKindClass = "LspKindClass",
   BlinkCmpKindCodeium = {
     bg = "NONE",
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   BlinkCmpKindColor = "LspKindColor",
   BlinkCmpKindConstant = "LspKindConstant",
   BlinkCmpKindConstructor = "LspKindConstructor",
   BlinkCmpKindCopilot = {
     bg = "NONE",
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   BlinkCmpKindDefault = {
     bg = "NONE",
@@ -486,11 +486,11 @@ local highlights = {
   BlinkCmpKindStruct = "LspKindStruct",
   BlinkCmpKindSupermaven = {
     bg = "NONE",
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   BlinkCmpKindTabNine = {
     bg = "NONE",
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   BlinkCmpKindText = "LspKindText",
   BlinkCmpKindTypeParameter = "LspKindTypeParameter",
@@ -508,23 +508,70 @@ local highlights = {
   },
   BlinkCmpLabelMatch = {
     bg = "NONE",
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   BlinkCmpMenu = {
-    bg = "#0f1215",
+    bg = "#13161a",
     fg = "#E7EAEE"
   },
   BlinkCmpMenuBorder = {
-    bg = "#0f1215",
-    fg = "#6f9cd2"
+    bg = "#13161a",
+    fg = "#739fd4"
   },
   BlinkCmpSignatureHelp = {
-    bg = "#0f1215",
+    bg = "#13161a",
     fg = "#E7EAEE"
   },
   BlinkCmpSignatureHelpBorder = {
-    bg = "#0f1215",
-    fg = "#6f9cd2"
+    bg = "#13161a",
+    fg = "#739fd4"
+  },
+  BlinkPairsBlue = {
+    bg = "NONE",
+    fg = "#B0A0FF"
+  },
+  BlinkPairsDepth1 = {
+    bg = "NONE",
+    fg = "#8E98A8"
+  },
+  BlinkPairsDepth2 = {
+    bg = "NONE",
+    fg = "#89BEFF"
+  },
+  BlinkPairsDepth3 = {
+    bg = "NONE",
+    fg = "#86EACF"
+  },
+  BlinkPairsDepth4 = {
+    bg = "NONE",
+    fg = "#B0A0FF"
+  },
+  BlinkPairsDepth5 = {
+    bg = "NONE",
+    fg = "#FFAFEB"
+  },
+  BlinkPairsDepth6 = {
+    bg = "NONE",
+    fg = "#FF9858"
+  },
+  BlinkPairsMatchParen = {
+    bg = "NONE",
+    bold = true,
+    fg = "#FF9858"
+  },
+  BlinkPairsOrange = {
+    bg = "NONE",
+    fg = "#89BEFF"
+  },
+  BlinkPairsPurple = {
+    bg = "NONE",
+    fg = "#86EACF"
+  },
+  BlinkPairsUnmatched = {
+    bg = "NONE",
+    bold = true,
+    fg = "#F97791",
+    undercurl = true
   },
   Bold = {
     bold = true,
@@ -551,11 +598,11 @@ local highlights = {
   },
   BufferAlternateERROR = {
     bg = "#474E5C",
-    fg = "#F5335A"
+    fg = "#F73B61"
   },
   BufferAlternateHINT = {
     bg = "#474E5C",
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   BufferAlternateINFO = {
     bg = "#474E5C",
@@ -567,7 +614,7 @@ local highlights = {
   },
   BufferAlternateMod = {
     bg = "#474E5C",
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   BufferAlternateSign = {
     bg = "#474E5C",
@@ -579,10 +626,10 @@ local highlights = {
   },
   BufferAlternateWARN = {
     bg = "#474E5C",
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   BufferCurrent = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#E7EAEE"
   },
   BufferCurrentADDED = {
@@ -598,40 +645,40 @@ local highlights = {
     fg = "#914c54"
   },
   BufferCurrentERROR = {
-    bg = "#171B20",
-    fg = "#F5335A"
+    bg = "#1D2228",
+    fg = "#F73B61"
   },
   BufferCurrentHINT = {
-    bg = "#171B20",
-    fg = "#41F1D1"
+    bg = "#1D2228",
+    fg = "#41FFDC"
   },
   BufferCurrentINFO = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#0AE7FF"
   },
   BufferCurrentIndex = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#0AE7FF"
   },
   BufferCurrentMod = {
-    bg = "#171B20",
-    fg = "#FFDB70"
+    bg = "#1D2228",
+    fg = "#FFE26C"
   },
   BufferCurrentSign = {
-    bg = "#171B20",
-    fg = "#171B20"
+    bg = "#1D2228",
+    fg = "#1D2228"
   },
   BufferCurrentTarget = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#F97791"
   },
   BufferCurrentWARN = {
-    bg = "#171B20",
-    fg = "#FFDB70"
+    bg = "#1D2228",
+    fg = "#FFE26C"
   },
   BufferInactive = {
-    bg = "#1f242a",
-    fg = "#9999af"
+    bg = "#23282f",
+    fg = "#9a9ab1"
   },
   BufferInactiveADDED = {
     bg = "#262a3e",
@@ -646,54 +693,54 @@ local highlights = {
     fg = "#7b454f"
   },
   BufferInactiveERROR = {
-    bg = "#1f242a",
-    fg = "#c92e4e"
+    bg = "#23282f",
+    fg = "#cb3656"
   },
   BufferInactiveHINT = {
-    bg = "#1f242a",
-    fg = "#39c6ae"
+    bg = "#23282f",
+    fg = "#3ad3b8"
   },
   BufferInactiveINFO = {
-    bg = "#1f242a",
-    fg = "#0dbed2"
+    bg = "#23282f",
+    fg = "#0ec0d4"
   },
   BufferInactiveIndex = {
-    bg = "#1f242a",
+    bg = "#23282f",
     fg = "#B9B8D3"
   },
   BufferInactiveMod = {
-    bg = "#1f242a",
-    fg = "#d1b560"
+    bg = "#23282f",
+    fg = "#d2bc5e"
   },
   BufferInactiveSign = {
-    bg = "#1f242a",
-    fg = "#171B20"
+    bg = "#23282f",
+    fg = "#1D2228"
   },
   BufferInactiveTarget = {
-    bg = "#1f242a",
+    bg = "#23282f",
     fg = "#F97791"
   },
   BufferInactiveWARN = {
-    bg = "#1f242a",
-    fg = "#d1b560"
+    bg = "#23282f",
+    fg = "#d2bc5e"
   },
   BufferLineIndicatorSelected = {
-    fg = "#00A7F5"
+    fg = "#2AA9DF"
   },
   BufferOffset = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#B9B8D3"
   },
   BufferTabpageFill = {
-    bg = "#282d35",
+    bg = "#292e36",
     fg = "#B9B8D3"
   },
   BufferTabpages = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "NONE"
   },
   BufferVisible = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#E7EAEE"
   },
   BufferVisibleADDED = {
@@ -709,47 +756,47 @@ local highlights = {
     fg = "#914c54"
   },
   BufferVisibleERROR = {
-    bg = "#111418",
-    fg = "#F5335A"
+    bg = "#161a1e",
+    fg = "#F73B61"
   },
   BufferVisibleHINT = {
-    bg = "#111418",
-    fg = "#41F1D1"
+    bg = "#161a1e",
+    fg = "#41FFDC"
   },
   BufferVisibleINFO = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#0AE7FF"
   },
   BufferVisibleIndex = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#0AE7FF"
   },
   BufferVisibleMod = {
-    bg = "#111418",
-    fg = "#FFDB70"
+    bg = "#161a1e",
+    fg = "#FFE26C"
   },
   BufferVisibleSign = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#0AE7FF"
   },
   BufferVisibleTarget = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#F97791"
   },
   BufferVisibleWARN = {
-    bg = "#111418",
-    fg = "#FFDB70"
+    bg = "#161a1e",
+    fg = "#FFE26C"
   },
   Character = {
     fg = "#38FFA5"
   },
   CmpDocumentation = {
-    bg = "#0f1215",
+    bg = "#13161a",
     fg = "#E7EAEE"
   },
   CmpDocumentationBorder = {
-    bg = "#0f1215",
-    fg = "#6f9cd2"
+    bg = "#13161a",
+    fg = "#739fd4"
   },
   CmpGhostText = {
     fg = "#414868"
@@ -765,25 +812,25 @@ local highlights = {
   },
   CmpItemAbbrMatch = {
     bg = "NONE",
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   CmpItemAbbrMatchFuzzy = {
     bg = "NONE",
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   CmpItemKindArray = "LspKindArray",
   CmpItemKindBoolean = "LspKindBoolean",
   CmpItemKindClass = "LspKindClass",
   CmpItemKindCodeium = {
     bg = "NONE",
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   CmpItemKindColor = "LspKindColor",
   CmpItemKindConstant = "LspKindConstant",
   CmpItemKindConstructor = "LspKindConstructor",
   CmpItemKindCopilot = {
     bg = "NONE",
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   CmpItemKindDefault = {
     bg = "NONE",
@@ -814,11 +861,11 @@ local highlights = {
   CmpItemKindStruct = "LspKindStruct",
   CmpItemKindSupermaven = {
     bg = "NONE",
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   CmpItemKindTabNine = {
     bg = "NONE",
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   CmpItemKindText = "LspKindText",
   CmpItemKindTypeParameter = "LspKindTypeParameter",
@@ -830,16 +877,16 @@ local highlights = {
     fg = "#586172"
   },
   CodeBlock = {
-    bg = "#111418"
+    bg = "#161a1e"
   },
   CodeiumSuggestion = {
     fg = "#414868"
   },
   ColorColumn = {
-    bg = "#12161a"
+    bg = "#171b20"
   },
   ColorfulWinSep = {
-    fg = "#FFA75A"
+    fg = "#FF924E"
   },
   Comment = {
     fg = "#586172",
@@ -852,7 +899,7 @@ local highlights = {
     fg = "#B9B8D3"
   },
   Constant = {
-    fg = "#E7EAEE"
+    fg = "#86EACF"
   },
   CopilotAnnotation = {
     fg = "#414868"
@@ -863,24 +910,24 @@ local highlights = {
   CurSearch = "IncSearch",
   Cursor = {
     bg = "#E7EAEE",
-    fg = "#171B20"
+    fg = "#1D2228"
   },
   CursorColumn = {
     bg = "#2C313A"
   },
   CursorIM = {
     bg = "#E7EAEE",
-    fg = "#171B20"
+    fg = "#1D2228"
   },
   CursorLine = {
     bg = "#2C313A"
   },
   CursorLineNr = {
     bold = true,
-    fg = "#FFA75A"
+    fg = "#FF924E"
   },
   DapStoppedLine = {
-    bg = "#2e2e28"
+    bg = "#34352f"
   },
   DashboardDesc = {
     fg = "#0AE7FF"
@@ -889,7 +936,7 @@ local highlights = {
     fg = "#5CCEFF"
   },
   DashboardFooter = {
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   DashboardHeader = {
     fg = "#5CCEFF"
@@ -898,7 +945,7 @@ local highlights = {
     fg = "#0AE7FF"
   },
   DashboardKey = {
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   DashboardMruIcon = {
     fg = "#F7D96C"
@@ -907,13 +954,13 @@ local highlights = {
     fg = "#0AE7FF"
   },
   DashboardProjectIcon = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   DashboardProjectTitle = {
     fg = "#0AE7FF"
   },
   DashboardProjectTitleIcon = {
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   DashboardShortCut = {
     fg = "#0AE7FF"
@@ -922,7 +969,7 @@ local highlights = {
     fg = "#FFAFEB"
   },
   Debug = {
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   DefinitionCount = {
     fg = "#F7D96C"
@@ -932,21 +979,21 @@ local highlights = {
   },
   Delimiter = "Special",
   DiagnosticError = {
-    fg = "#F5335A"
+    fg = "#F73B61"
   },
   DiagnosticHint = {
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   DiagnosticInfo = {
     fg = "#0AE7FF"
   },
   DiagnosticInformation = "DiagnosticInfo",
   DiagnosticUnderlineError = {
-    sp = "#F5335A",
+    sp = "#F73B61",
     undercurl = true
   },
   DiagnosticUnderlineHint = {
-    sp = "#41F1D1",
+    sp = "#41FFDC",
     undercurl = true
   },
   DiagnosticUnderlineInfo = {
@@ -954,40 +1001,40 @@ local highlights = {
     undercurl = true
   },
   DiagnosticUnderlineWarn = {
-    sp = "#FFDB70",
+    sp = "#FFE26C",
     undercurl = true
   },
   DiagnosticUnnecessary = {
     fg = "#414868"
   },
   DiagnosticVirtualTextError = {
-    bg = "#2d1d26",
-    fg = "#F5335A"
+    bg = "#33252e",
+    fg = "#F73B61"
   },
   DiagnosticVirtualTextHint = {
-    bg = "#1b3032",
-    fg = "#41F1D1"
+    bg = "#21383a",
+    fg = "#41FFDC"
   },
   DiagnosticVirtualTextInfo = {
-    bg = "#162f36",
+    bg = "#1b363e",
     fg = "#0AE7FF"
   },
   DiagnosticVirtualTextWarn = {
-    bg = "#2e2e28",
-    fg = "#FFDB70"
+    bg = "#34352f",
+    fg = "#FFE26C"
   },
   DiagnosticWarn = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   DiagnosticWarning = "DiagnosticWarn",
   DiffAdd = {
-    bg = "#294145"
+    bg = "#2e474b"
   },
   DiffChange = {
-    bg = "#181f27"
+    bg = "#1e252e"
   },
   DiffDelete = {
-    bg = "#4f212f"
+    bg = "#542836"
   },
   DiffText = {
     bg = "#254365"
@@ -996,48 +1043,48 @@ local highlights = {
     fg = "#5CCEFF"
   },
   EndOfBuffer = {
-    fg = "#171B20"
+    fg = "#1D2228"
   },
   Error = {
-    fg = "#F5335A"
+    fg = "#F73B61"
   },
   ErrorMsg = {
-    fg = "#F5335A"
+    fg = "#F73B61"
   },
   FlashBackdrop = {
     fg = "#545c7e"
   },
   FlashLabel = {
-    bg = "#AE9EFF",
+    bg = "#B0A0FF",
     bold = true,
     fg = "#E7EAEE"
   },
   FloatBorder = {
-    bg = "#0f1215",
+    bg = "#13161a",
     fg = "#474E5C"
   },
   FloatTitle = {
-    bg = "#0f1215",
-    fg = "#6f9cd2"
+    bg = "#13161a",
+    fg = "#739fd4"
   },
   FoldColumn = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#586172"
   },
   Folded = {
-    bg = "#262a32",
+    bg = "#282d35",
     fg = "#5CCEFF"
   },
   Foo = {
-    bg = "#FFCA74",
+    bg = "#FFCB77",
     fg = "#E7EAEE"
   },
   Function = {
     fg = "#5CCEFF"
   },
   FzfLuaBorder = {
-    bg = "#0f1215",
-    fg = "#6f9cd2"
+    bg = "#13161a",
+    fg = "#739fd4"
   },
   FzfLuaCursor = "IncSearch",
   FzfLuaDirPart = {
@@ -1049,62 +1096,62 @@ local highlights = {
     fg = "#E7EAEE"
   },
   FzfLuaFzfPointer = {
-    fg = "#AE9EFF"
+    fg = "#B0A0FF"
   },
   FzfLuaFzfSeparator = {
-    bg = "#0f1215",
-    fg = "#FFA75A"
+    bg = "#13161a",
+    fg = "#FF9858"
   },
   FzfLuaHeaderBind = "@punctuation.special",
   FzfLuaHeaderText = "Title",
   FzfLuaNormal = {
-    bg = "#0f1215",
+    bg = "#13161a",
     fg = "#E7EAEE"
   },
   FzfLuaPath = "Directory",
   FzfLuaPreviewTitle = {
-    bg = "#0f1215",
-    fg = "#6f9cd2"
+    bg = "#13161a",
+    fg = "#739fd4"
   },
   FzfLuaTitle = {
-    bg = "#0f1215",
-    fg = "#FFA75A"
+    bg = "#13161a",
+    fg = "#FF9858"
   },
   GitGutterAdd = {
-    fg = "#14CC92"
+    fg = "#1BB16E"
   },
   GitGutterAddLineNr = {
-    fg = "#14CC92"
+    fg = "#1BB16E"
   },
   GitGutterChange = {
-    fg = "#00A7F5"
+    fg = "#2AA9DF"
   },
   GitGutterChangeLineNr = {
-    fg = "#00A7F5"
+    fg = "#2AA9DF"
   },
   GitGutterDelete = {
-    fg = "#ED4567"
+    fg = "#ED3A5E"
   },
   GitGutterDeleteLineNr = {
-    fg = "#ED4567"
+    fg = "#ED3A5E"
   },
   GitSignsAdd = {
-    fg = "#14CC92"
+    fg = "#1BB16E"
   },
   GitSignsChange = {
-    fg = "#00A7F5"
+    fg = "#2AA9DF"
   },
   GitSignsDelete = {
-    fg = "#ED4567"
+    fg = "#ED3A5E"
   },
   GlyphPalette1 = {
-    fg = "#F5335A"
+    fg = "#F73B61"
   },
   GlyphPalette2 = {
     fg = "#38FFA5"
   },
   GlyphPalette3 = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   GlyphPalette4 = {
     fg = "#5CCEFF"
@@ -1125,16 +1172,16 @@ local highlights = {
     fg = "#0AE7FF"
   },
   GrugFarInputLabel = {
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   GrugFarInputPlaceholder = {
     fg = "#545c7e"
   },
   GrugFarResultsChangeIndicator = {
-    fg = "#00A7F5"
+    fg = "#2AA9DF"
   },
   GrugFarResultsHeader = {
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   GrugFarResultsLineColumn = {
     fg = "#545c7e"
@@ -1144,47 +1191,47 @@ local highlights = {
   },
   GrugFarResultsMatch = {
     bg = "#F97791",
-    fg = "#12161a"
+    fg = "#171b20"
   },
   GrugFarResultsStats = {
     fg = "#5CCEFF"
   },
   Headline = "Headline1",
   Headline1 = {
-    bg = "#192627"
+    bg = "#1e2d2e"
   },
   Headline2 = {
-    bg = "#1a242b"
+    bg = "#202b33"
   },
   Headline3 = {
-    bg = "#1f222b"
+    bg = "#242833"
   },
   Headline4 = {
-    bg = "#232524"
+    bg = "#282c2b"
   },
   Headline5 = {
-    bg = "#222026"
+    bg = "#28262d"
   },
   Headline6 = {
-    bg = "#192629"
+    bg = "#1f2d31"
   },
   Headline7 = {
-    bg = "#222524"
+    bg = "#282b2b"
   },
   Headline8 = {
-    bg = "#232223"
+    bg = "#28282a"
   },
   Hlargs = "@variable.parameter",
   HopNextKey = {
     bold = true,
-    fg = "#AE9EFF"
+    fg = "#B0A0FF"
   },
   HopNextKey1 = {
     bold = true,
     fg = "#9DA9E7"
   },
   HopNextKey2 = {
-    fg = "#677097"
+    fg = "#6a739b"
   },
   HopUnmatched = {
     fg = "#545c7e"
@@ -1194,31 +1241,31 @@ local highlights = {
     nocombine = true
   },
   IblScope = {
-    fg = "#85BCFF",
+    fg = "#89BEFF",
     nocombine = true
   },
   Identifier = {
     fg = "#F97791"
   },
   IlluminatedWordRead = {
-    bg = "#393f4a"
+    bg = "#3a414c"
   },
   IlluminatedWordText = {
-    bg = "#393f4a"
+    bg = "#3a414c"
   },
   IlluminatedWordWrite = {
-    bg = "#393f4a"
+    bg = "#3a414c"
   },
   IncSearch = {
-    bg = "#FFA75A",
-    fg = "#12161a"
+    bg = "#FF924E",
+    fg = "#171b20"
   },
   IndentBlanklineChar = {
     fg = "#474E5C",
     nocombine = true
   },
   IndentBlanklineContextChar = {
-    fg = "#85BCFF",
+    fg = "#89BEFF",
     nocombine = true
   },
   IndentLine = {
@@ -1226,7 +1273,7 @@ local highlights = {
     nocombine = true
   },
   IndentLineCurrent = {
-    fg = "#85BCFF",
+    fg = "#89BEFF",
     nocombine = true
   },
   Italic = {
@@ -1234,12 +1281,12 @@ local highlights = {
     italic = true
   },
   Keyword = {
-    fg = "#AE9EFF",
+    fg = "#B0A0FF",
     italic = true
   },
   LazyProgressDone = {
     bold = true,
-    fg = "#AE9EFF"
+    fg = "#B0A0FF"
   },
   LazyProgressTodo = {
     bold = true,
@@ -1250,10 +1297,10 @@ local highlights = {
   },
   LeapLabel = {
     bold = true,
-    fg = "#AE9EFF"
+    fg = "#B0A0FF"
   },
   LeapMatch = {
-    bg = "#AE9EFF",
+    bg = "#B0A0FF",
     bold = true,
     fg = "#E7EAEE"
   },
@@ -1270,17 +1317,17 @@ local highlights = {
     fg = "#586172"
   },
   LspFloatWinBorder = {
-    fg = "#6f9cd2"
+    fg = "#739fd4"
   },
   LspFloatWinNormal = {
-    bg = "#0f1215"
+    bg = "#13161a"
   },
   LspInfoBorder = {
-    bg = "#0f1215",
-    fg = "#6f9cd2"
+    bg = "#13161a",
+    fg = "#739fd4"
   },
   LspInlayHint = {
-    bg = "#1b3032",
+    bg = "#21383a",
     fg = "#545c7e"
   },
   LspKindArray = "@punctuation.bracket",
@@ -1336,13 +1383,13 @@ local highlights = {
     fg = "#F7D96C"
   },
   LspSagaCodeActionTitle = {
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   LspSagaDefPreviewBorder = {
     fg = "#38FFA5"
   },
   LspSagaFinderSelection = {
-    fg = "#2f3546"
+    fg = "#33394a"
   },
   LspSagaHoverBorder = {
     fg = "#5CCEFF"
@@ -1354,12 +1401,12 @@ local highlights = {
     fg = "#F97791"
   },
   LspSignatureActiveParameter = {
-    bg = "#21252f",
+    bg = "#262b36",
     bold = true
   },
   MatchParen = {
     bold = true,
-    fg = "#FFA75A"
+    fg = "#FF924E"
   },
   MiniAnimateCursor = {
     nocombine = true,
@@ -1390,26 +1437,26 @@ local highlights = {
   MiniDepsPlaceholder = "Comment",
   MiniDepsTitle = "Title",
   MiniDepsTitleError = {
-    bg = "#ED4567",
-    fg = "#12161a"
+    bg = "#ED3A5E",
+    fg = "#171b20"
   },
   MiniDepsTitleSame = "Comment",
   MiniDepsTitleUpdate = {
-    bg = "#14CC92",
-    fg = "#12161a"
+    bg = "#1BB16E",
+    fg = "#171b20"
   },
   MiniDiffOverAdd = "DiffAdd",
   MiniDiffOverChange = "DiffText",
   MiniDiffOverContext = "DiffChange",
   MiniDiffOverDelete = "DiffDelete",
   MiniDiffSignAdd = {
-    fg = "#14CC92"
+    fg = "#1BB16E"
   },
   MiniDiffSignChange = {
-    fg = "#00A7F5"
+    fg = "#2AA9DF"
   },
   MiniDiffSignDelete = {
-    fg = "#ED4567"
+    fg = "#ED3A5E"
   },
   MiniFilesBorder = "FloatBorder",
   MiniFilesBorderModified = "DiagnosticFloatingWarn",
@@ -1421,29 +1468,29 @@ local highlights = {
   MiniFilesNormal = "NormalFloat",
   MiniFilesTitle = "FloatTitle",
   MiniFilesTitleFocused = {
-    bg = "#0f1215",
+    bg = "#13161a",
     bold = true,
-    fg = "#6f9cd2"
+    fg = "#739fd4"
   },
   MiniHipatternsFixme = {
-    bg = "#F5335A",
+    bg = "#F73B61",
     bold = true,
-    fg = "#12161a"
+    fg = "#171b20"
   },
   MiniHipatternsHack = {
-    bg = "#FFDB70",
+    bg = "#FFE26C",
     bold = true,
-    fg = "#12161a"
+    fg = "#171b20"
   },
   MiniHipatternsNote = {
-    bg = "#41F1D1",
+    bg = "#41FFDC",
     bold = true,
-    fg = "#12161a"
+    fg = "#171b20"
   },
   MiniHipatternsTodo = {
     bg = "#0AE7FF",
     bold = true,
-    fg = "#12161a"
+    fg = "#171b20"
   },
   MiniIconsAzure = {
     fg = "#0AE7FF"
@@ -1452,7 +1499,7 @@ local highlights = {
     fg = "#5CCEFF"
   },
   MiniIconsCyan = {
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   MiniIconsGreen = {
     fg = "#38FFA5"
@@ -1461,7 +1508,7 @@ local highlights = {
     fg = "#E7EAEE"
   },
   MiniIconsOrange = {
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   MiniIconsPurple = {
     fg = "#F7D96C"
@@ -1470,33 +1517,33 @@ local highlights = {
     fg = "#F97791"
   },
   MiniIconsYellow = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   MiniIndentscopePrefix = {
     nocombine = true
   },
   MiniIndentscopeSymbol = {
-    fg = "#85BCFF",
+    fg = "#89BEFF",
     nocombine = true
   },
   MiniJump = {
-    bg = "#AE9EFF",
+    bg = "#B0A0FF",
     fg = "#ffffff"
   },
   MiniJump2dDim = "Comment",
   MiniJump2dSpot = {
     bold = true,
-    fg = "#AE9EFF",
+    fg = "#B0A0FF",
     nocombine = true
   },
   MiniJump2dSpotAhead = {
-    bg = "#111418",
-    fg = "#41F1D1",
+    bg = "#161a1e",
+    fg = "#41FFDC",
     nocombine = true
   },
   MiniJump2dSpotUnique = {
     bold = true,
-    fg = "#FFA75A",
+    fg = "#FF9858",
     nocombine = true
   },
   MiniMapNormal = "NormalFloat",
@@ -1510,8 +1557,8 @@ local highlights = {
   MiniPickBorder = "FloatBorder",
   MiniPickBorderBusy = "DiagnosticFloatingWarn",
   MiniPickBorderText = {
-    bg = "#0f1215",
-    fg = "#41F1D1"
+    bg = "#13161a",
+    fg = "#41FFDC"
   },
   MiniPickHeader = "DiagnosticFloatingHint",
   MiniPickIconDirectory = "Directory",
@@ -1523,14 +1570,14 @@ local highlights = {
   MiniPickPreviewLine = "CursorLine",
   MiniPickPreviewRegion = "IncSearch",
   MiniPickPrompt = {
-    bg = "#0f1215",
+    bg = "#13161a",
     fg = "#0AE7FF"
   },
   MiniStarterCurrent = {
     nocombine = true
   },
   MiniStarterFooter = {
-    fg = "#FFDB70",
+    fg = "#FFE26C",
     italic = true
   },
   MiniStarterHeader = {
@@ -1541,20 +1588,20 @@ local highlights = {
     italic = true
   },
   MiniStarterItem = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#E7EAEE"
   },
   MiniStarterItemBullet = {
-    fg = "#6f9cd2"
+    fg = "#739fd4"
   },
   MiniStarterItemPrefix = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   MiniStarterQuery = {
     fg = "#0AE7FF"
   },
   MiniStarterSection = {
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   MiniStatuslineDevinfo = {
     bg = "#474E5C",
@@ -1569,72 +1616,72 @@ local highlights = {
     fg = "#a9b1d6"
   },
   MiniStatuslineInactive = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#5CCEFF"
   },
   MiniStatuslineModeCommand = {
-    bg = "#FFDB70",
+    bg = "#FFE26C",
     bold = true,
-    fg = "#12161a"
+    fg = "#171b20"
   },
   MiniStatuslineModeInsert = {
     bg = "#38FFA5",
     bold = true,
-    fg = "#12161a"
+    fg = "#171b20"
   },
   MiniStatuslineModeNormal = {
     bg = "#5CCEFF",
     bold = true,
-    fg = "#12161a"
+    fg = "#171b20"
   },
   MiniStatuslineModeOther = {
-    bg = "#41F1D1",
+    bg = "#41FFDC",
     bold = true,
-    fg = "#12161a"
+    fg = "#171b20"
   },
   MiniStatuslineModeReplace = {
     bg = "#F97791",
     bold = true,
-    fg = "#12161a"
+    fg = "#171b20"
   },
   MiniStatuslineModeVisual = {
     bg = "#FFAFEB",
     bold = true,
-    fg = "#12161a"
+    fg = "#171b20"
   },
   MiniSurround = {
-    bg = "#FFA75A",
-    fg = "#12161a"
+    bg = "#FF9858",
+    fg = "#171b20"
   },
   MiniTablineCurrent = {
     bg = "#474E5C",
     fg = "#E7EAEE"
   },
   MiniTablineFill = {
-    bg = "#12161a"
+    bg = "#171b20"
   },
   MiniTablineHidden = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#B9B8D3"
   },
   MiniTablineModifiedCurrent = {
     bg = "#474E5C",
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   MiniTablineModifiedHidden = {
-    bg = "#111418",
-    fg = "#b9a158"
+    bg = "#161a1e",
+    fg = "#bba858"
   },
   MiniTablineModifiedVisible = {
-    bg = "#111418",
-    fg = "#FFDB70"
+    bg = "#161a1e",
+    fg = "#FFE26C"
   },
   MiniTablineTabpagesection = {
     bg = "#474E5C",
     fg = "NONE"
   },
   MiniTablineVisible = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#E7EAEE"
   },
   MiniTestEmphasis = {
@@ -1710,7 +1757,7 @@ local highlights = {
     fg = "#a9b1d6"
   },
   NeoTreeGitModified = {
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   NeoTreeGitStaged = {
     fg = "#86EACF"
@@ -1719,44 +1766,44 @@ local highlights = {
     fg = "#FFAFEB"
   },
   NeoTreeNormal = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#a9b1d6"
   },
   NeoTreeNormalNC = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#a9b1d6"
   },
   NeoTreeTabActive = {
-    bg = "#111418",
+    bg = "#161a1e",
     bold = true,
     fg = "#5CCEFF"
   },
   NeoTreeTabInactive = {
-    bg = "#0e1013",
+    bg = "#121518",
     fg = "#545c7e"
   },
   NeoTreeTabSeparatorActive = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#5CCEFF"
   },
   NeoTreeTabSeparatorInactive = {
-    bg = "#0e1013",
-    fg = "#171B20"
+    bg = "#121518",
+    fg = "#1D2228"
   },
   NeogitBranch = {
     fg = "#FFAFEB"
   },
   NeogitDiffAddHighlight = {
-    bg = "#294145",
-    fg = "#14CC92"
+    bg = "#2e474b",
+    fg = "#1BB16E"
   },
   NeogitDiffContextHighlight = {
-    bg = "#2f353e",
+    bg = "#323842",
     fg = "#a9b1d6"
   },
   NeogitDiffDeleteHighlight = {
-    bg = "#4f212f",
-    fg = "#ED4567"
+    bg = "#542836",
+    fg = "#ED3A5E"
   },
   NeogitHunkHeader = {
     bg = "#2C313A",
@@ -1787,10 +1834,10 @@ local highlights = {
     fg = "#F97791"
   },
   NeotestFile = {
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   NeotestFocused = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   NeotestIndent = {
     fg = "#a9b1d6"
@@ -1805,7 +1852,7 @@ local highlights = {
     fg = "#38FFA5"
   },
   NeotestRunning = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   NeotestSkipped = {
     fg = "#5CCEFF"
@@ -1820,22 +1867,22 @@ local highlights = {
     fg = "#5CCEFF"
   },
   NoiceCmdlineIconInput = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   NoiceCmdlineIconLua = {
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   NoiceCmdlinePopupBorderInput = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   NoiceCmdlinePopupBorderLua = {
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   NoiceCmdlinePopupTitleInput = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   NoiceCmdlinePopupTitleLua = {
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   NoiceCompletionItemKindArray = "LspKindArray",
   NoiceCompletionItemKindBoolean = "LspKindBoolean",
@@ -1879,32 +1926,32 @@ local highlights = {
     fg = "#545c7e"
   },
   Normal = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#E7EAEE"
   },
   NormalFloat = {
-    bg = "#0f1215",
+    bg = "#13161a",
     fg = "#E7EAEE"
   },
   NormalNC = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#E7EAEE"
   },
   NormalSB = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#a9b1d6"
   },
   NotifyBackground = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#E7EAEE"
   },
   NotifyDEBUGBody = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#E7EAEE"
   },
   NotifyDEBUGBorder = {
-    bg = "#171B20",
-    fg = "#2b3039"
+    bg = "#1D2228",
+    fg = "#2f353e"
   },
   NotifyDEBUGIcon = {
     fg = "#586172"
@@ -1913,26 +1960,26 @@ local highlights = {
     fg = "#586172"
   },
   NotifyERRORBody = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#E7EAEE"
   },
   NotifyERRORBorder = {
-    bg = "#171B20",
-    fg = "#5a2231"
+    bg = "#1D2228",
+    fg = "#5e2a39"
   },
   NotifyERRORIcon = {
-    fg = "#F5335A"
+    fg = "#F73B61"
   },
   NotifyERRORTitle = {
-    fg = "#F5335A"
+    fg = "#F73B61"
   },
   NotifyINFOBody = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#E7EAEE"
   },
   NotifyINFOBorder = {
-    bg = "#171B20",
-    fg = "#135863"
+    bg = "#1D2228",
+    fg = "#175d69"
   },
   NotifyINFOIcon = {
     fg = "#0AE7FF"
@@ -1941,12 +1988,12 @@ local highlights = {
     fg = "#0AE7FF"
   },
   NotifyTRACEBody = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#E7EAEE"
   },
   NotifyTRACEBorder = {
-    bg = "#171B20",
-    fg = "#5a5437"
+    bg = "#1D2228",
+    fg = "#5e593c"
   },
   NotifyTRACEIcon = {
     fg = "#F7D96C"
@@ -1955,18 +2002,18 @@ local highlights = {
     fg = "#F7D96C"
   },
   NotifyWARNBody = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#E7EAEE"
   },
   NotifyWARNBorder = {
-    bg = "#171B20",
-    fg = "#5d5538"
+    bg = "#1D2228",
+    fg = "#615c3c"
   },
   NotifyWARNIcon = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   NotifyWARNTitle = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   Number = {
     fg = "#38FFA5"
@@ -1976,13 +2023,13 @@ local highlights = {
     fg = "#5CCEFF"
   },
   NvimTreeGitDeleted = {
-    fg = "#ED4567"
+    fg = "#ED3A5E"
   },
   NvimTreeGitDirty = {
-    fg = "#00A7F5"
+    fg = "#2AA9DF"
   },
   NvimTreeGitNew = {
-    fg = "#14CC92"
+    fg = "#1BB16E"
   },
   NvimTreeImageFile = {
     fg = "#a9b1d6"
@@ -1991,11 +2038,11 @@ local highlights = {
     fg = "#474E5C"
   },
   NvimTreeNormal = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#a9b1d6"
   },
   NvimTreeNormalNC = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#a9b1d6"
   },
   NvimTreeOpenedFile = {
@@ -2013,17 +2060,17 @@ local highlights = {
     fg = "#5CCEFF"
   },
   NvimTreeWinSeparator = {
-    bg = "#111418",
-    fg = "#111418"
+    bg = "#161a1e",
+    fg = "#161a1e"
   },
   OctoDetailsLabel = {
     bold = true,
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   OctoDetailsValue = "@variable.member",
   OctoDirty = {
     bold = true,
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   OctoIssueTitle = {
     bold = true,
@@ -2032,34 +2079,34 @@ local highlights = {
   OctoStateChangesRequested = "DiagnosticVirtualTextWarn",
   OctoStateClosed = "DiagnosticVirtualTextError",
   OctoStateMerged = {
-    bg = "#2e2a34",
+    bg = "#34303c",
     fg = "#FFAFEB"
   },
   OctoStateOpen = "DiagnosticVirtualTextHint",
   OctoStatePending = "DiagnosticVirtualTextWarn",
   OctoStatusColumn = {
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   Operator = {
     fg = "#FFAFEB"
   },
   Pmenu = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#E7EAEE"
   },
   PmenuMatch = {
-    bg = "#111418",
-    fg = "#85BCFF"
+    bg = "#161a1e",
+    fg = "#89BEFF"
   },
   PmenuMatchSel = {
-    bg = "#3d4450",
-    fg = "#85BCFF"
+    bg = "#3f4552",
+    fg = "#89BEFF"
   },
   PmenuSbar = {
-    bg = "#1c1f23"
+    bg = "#202428"
   },
   PmenuSel = {
-    bg = "#3d4450"
+    bg = "#3f4552"
   },
   PmenuThumb = {
     bg = "#474E5C"
@@ -2071,7 +2118,7 @@ local highlights = {
     fg = "#5CCEFF"
   },
   QuickFixLine = {
-    bg = "#2f3546",
+    bg = "#33394a",
     bold = true
   },
   RainbowDelimiterBlue = {
@@ -2084,7 +2131,7 @@ local highlights = {
     fg = "#38FFA5"
   },
   RainbowDelimiterOrange = {
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   RainbowDelimiterRed = {
     fg = "#F97791"
@@ -2093,7 +2140,7 @@ local highlights = {
     fg = "#F7D96C"
   },
   RainbowDelimiterYellow = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   ReferencesCount = {
     fg = "#F7D96C"
@@ -2102,84 +2149,84 @@ local highlights = {
     fg = "#5CCEFF"
   },
   RenderMarkdownBullet = {
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   RenderMarkdownCode = {
-    bg = "#14171b"
+    bg = "#191d22"
   },
   RenderMarkdownCodeInline = "@markup.raw.markdown_inline",
   RenderMarkdownDash = {
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   RenderMarkdownH1Bg = {
-    bg = "#1a322d"
+    bg = "#203835"
   },
   RenderMarkdownH1Fg = {
     bold = true,
     fg = "#38FFA5"
   },
   RenderMarkdownH2Bg = {
-    bg = "#1e2d36"
+    bg = "#23333e"
   },
   RenderMarkdownH2Fg = {
     bold = true,
     fg = "#5CCEFF"
   },
   RenderMarkdownH3Bg = {
-    bg = "#262836"
+    bg = "#2c2f3e"
   },
   RenderMarkdownH3Fg = {
     bold = true,
-    fg = "#AE9EFF"
+    fg = "#B0A0FF"
   },
   RenderMarkdownH4Bg = {
-    bg = "#2e2e28"
+    bg = "#34352f"
   },
   RenderMarkdownH4Fg = {
     bold = true,
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   RenderMarkdownH5Bg = {
-    bg = "#2e242b"
+    bg = "#332b33"
   },
   RenderMarkdownH5Fg = {
     bold = true,
     fg = "#F97791"
   },
   RenderMarkdownH6Bg = {
-    bg = "#1b3032"
+    bg = "#21383a"
   },
   RenderMarkdownH6Fg = {
     bold = true,
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   RenderMarkdownH7Bg = {
-    bg = "#2d2e28"
+    bg = "#33342f"
   },
   RenderMarkdownH7Fg = {
     bold = true,
     fg = "#F7D96C"
   },
   RenderMarkdownH8Bg = {
-    bg = "#2e2926"
+    bg = "#342e2d"
   },
   RenderMarkdownH8Fg = {
     bold = true,
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   RenderMarkdownTableHead = {
     fg = "#F97791"
   },
   RenderMarkdownTableRow = {
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   ScrollbarError = {
     bg = "NONE",
-    fg = "#F5335A"
+    fg = "#F73B61"
   },
   ScrollbarErrorHandle = {
     bg = "#2C313A",
-    fg = "#F5335A"
+    fg = "#F73B61"
   },
   ScrollbarHandle = {
     bg = "#2C313A",
@@ -2187,11 +2234,11 @@ local highlights = {
   },
   ScrollbarHint = {
     bg = "NONE",
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   ScrollbarHintHandle = {
     bg = "#2C313A",
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   ScrollbarInfo = {
     bg = "NONE",
@@ -2211,19 +2258,19 @@ local highlights = {
   },
   ScrollbarSearch = {
     bg = "NONE",
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   ScrollbarSearchHandle = {
     bg = "#2C313A",
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   ScrollbarWarn = {
     bg = "NONE",
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   ScrollbarWarnHandle = {
     bg = "#2C313A",
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   Search = {
     bg = "#00648F",
@@ -2233,13 +2280,13 @@ local highlights = {
   SidekickDiffContext = "DiffChange",
   SidekickDiffDelete = "DiffDelete",
   SidekickSignAdd = {
-    fg = "#14CC92"
+    fg = "#1BB16E"
   },
   SidekickSignChange = {
-    fg = "#00A7F5"
+    fg = "#2AA9DF"
   },
   SidekickSignDelete = {
-    fg = "#ED4567"
+    fg = "#ED3A5E"
   },
   SidekickDiffAdd = "DiffAdd",
   SidekickDiffContext = "DiffChange",
@@ -2254,11 +2301,11 @@ local highlights = {
     fg = "#914c54"
   },
   SignColumn = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#474E5C"
   },
   SignColumnSB = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#474E5C"
   },
   SnacksDashboardDesc = {
@@ -2268,16 +2315,16 @@ local highlights = {
     fg = "#545c7e"
   },
   SnacksDashboardFooter = {
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   SnacksDashboardHeader = {
     fg = "#5CCEFF"
   },
   SnacksDashboardIcon = {
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   SnacksDashboardKey = {
-    fg = "#FFA75A"
+    fg = "#FF924E"
   },
   SnacksDashboardSpecial = {
     fg = "#F7D96C"
@@ -2305,11 +2352,11 @@ local highlights = {
     nocombine = true
   },
   SnacksIndent3 = {
-    fg = "#AE9EFF",
+    fg = "#B0A0FF",
     nocombine = true
   },
   SnacksIndent4 = {
-    fg = "#FFDB70",
+    fg = "#FFE26C",
     nocombine = true
   },
   SnacksIndent5 = {
@@ -2317,7 +2364,7 @@ local highlights = {
     nocombine = true
   },
   SnacksIndent6 = {
-    fg = "#41F1D1",
+    fg = "#41FFDC",
     nocombine = true
   },
   SnacksIndent7 = {
@@ -2325,56 +2372,56 @@ local highlights = {
     nocombine = true
   },
   SnacksIndent8 = {
-    fg = "#FFA75A",
+    fg = "#FF9858",
     nocombine = true
   },
   SnacksIndentScope = {
-    fg = "#41F1D1",
+    fg = "#B0A0FF",
     nocombine = true
   },
   SnacksInputBorder = {
-    bg = "#0f1215",
-    fg = "#FFDB70"
+    bg = "#13161a",
+    fg = "#FFE26C"
   },
   SnacksInputIcon = {
-    fg = "#85BCFF"
+    fg = "#89BEFF"
   },
   SnacksInputTitle = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   SnacksNotifierBorderDebug = {
-    bg = "#171B20",
-    fg = "#313741"
+    bg = "#1D2228",
+    fg = "#353b46"
   },
   SnacksNotifierBorderError = {
-    bg = "#171B20",
-    fg = "#702537"
+    bg = "#1D2228",
+    fg = "#742c3f"
   },
   SnacksNotifierBorderInfo = {
-    bg = "#171B20",
-    fg = "#126d79"
+    bg = "#1D2228",
+    fg = "#15717e"
   },
   SnacksNotifierBorderTrace = {
-    bg = "#171B20",
-    fg = "#71673e"
+    bg = "#1D2228",
+    fg = "#746b43"
   },
   SnacksNotifierBorderWarn = {
-    bg = "#171B20",
-    fg = "#746840"
+    bg = "#1D2228",
+    fg = "#776f43"
   },
   SnacksNotifierDebug = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#E7EAEE"
   },
   SnacksNotifierError = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#E7EAEE"
   },
   SnacksNotifierIconDebug = {
     fg = "#586172"
   },
   SnacksNotifierIconError = {
-    fg = "#F5335A"
+    fg = "#F73B61"
   },
   SnacksNotifierIconInfo = {
     fg = "#0AE7FF"
@@ -2383,17 +2430,17 @@ local highlights = {
     fg = "#F7D96C"
   },
   SnacksNotifierIconWarn = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   SnacksNotifierInfo = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#E7EAEE"
   },
   SnacksNotifierTitleDebug = {
     fg = "#586172"
   },
   SnacksNotifierTitleError = {
-    fg = "#F5335A"
+    fg = "#F73B61"
   },
   SnacksNotifierTitleInfo = {
     fg = "#0AE7FF"
@@ -2402,27 +2449,27 @@ local highlights = {
     fg = "#F7D96C"
   },
   SnacksNotifierTitleWarn = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   SnacksNotifierTrace = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#E7EAEE"
   },
   SnacksNotifierWarn = {
-    bg = "#171B20",
+    bg = "#1D2228",
     fg = "#E7EAEE"
   },
   SnacksPickerBoxTitle = {
-    bg = "#0f1215",
-    fg = "#FFA75A"
+    bg = "#13161a",
+    fg = "#FF924E"
   },
   SnacksPickerInputBorder = {
-    bg = "#0f1215",
-    fg = "#FFA75A"
+    bg = "#13161a",
+    fg = "#FF924E"
   },
   SnacksPickerInputTitle = {
-    bg = "#0f1215",
-    fg = "#FFA75A"
+    bg = "#13161a",
+    fg = "#FF924E"
   },
   SnacksPickerPickWin = {
     bg = "#00648F",
@@ -2430,28 +2477,28 @@ local highlights = {
     fg = "#E7EAEE"
   },
   SnacksPickerPickWinCurrent = {
-    bg = "#AE9EFF",
+    bg = "#B0A0FF",
     bold = true,
     fg = "#E7EAEE"
   },
   SnacksPickerSelected = {
-    fg = "#AE9EFF"
+    fg = "#B0A0FF"
   },
   SnacksPickerToggle = "SnacksProfilerBadgeInfo",
   SnacksProfilerBadgeInfo = {
-    bg = "#222b36",
-    fg = "#85BCFF"
+    bg = "#28323e",
+    fg = "#89BEFF"
   },
   SnacksProfilerBadgeTrace = {
-    bg = "#181f27",
+    bg = "#1e252e",
     fg = "#545c7e"
   },
   SnacksProfilerIconInfo = {
-    bg = "#384b63",
-    fg = "#85BCFF"
+    bg = "#3d5169",
+    fg = "#89BEFF"
   },
   SnacksProfilerIconTrace = {
-    bg = "#1b2735",
+    bg = "#1f2c3a",
     fg = "#545c7e"
   },
   SnacksZenIcon = {
@@ -2462,20 +2509,20 @@ local highlights = {
     fg = "#2C313A"
   },
   SneakScope = {
-    bg = "#2f3546"
+    bg = "#33394a"
   },
   Special = {
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   SpecialKey = {
     fg = "#545c7e"
   },
   SpellBad = {
-    sp = "#F5335A",
+    sp = "#F73B61",
     undercurl = true
   },
   SpellCap = {
-    sp = "#FFDB70",
+    sp = "#FFE26C",
     undercurl = true
   },
   SpellLocal = {
@@ -2483,18 +2530,18 @@ local highlights = {
     undercurl = true
   },
   SpellRare = {
-    sp = "#41F1D1",
+    sp = "#41FFDC",
     undercurl = true
   },
   Statement = {
-    fg = "#AE9EFF"
+    fg = "#B0A0FF"
   },
   StatusLine = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#a9b1d6"
   },
   StatusLineNC = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#474E5C"
   },
   String = {
@@ -2502,40 +2549,40 @@ local highlights = {
   },
   Substitute = {
     bg = "#F97791",
-    fg = "#12161a"
+    fg = "#171b20"
   },
   SupermavenSuggestion = {
     fg = "#414868"
   },
   TabLine = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#474E5C"
   },
   TabLineFill = {
-    bg = "#12161a"
+    bg = "#171b20"
   },
   TabLineSel = {
     bg = "#5CCEFF",
-    fg = "#12161a"
+    fg = "#171b20"
   },
   TargetWord = {
     fg = "#0AE7FF"
   },
   TelescopeBorder = {
-    bg = "#0f1215",
-    fg = "#6f9cd2"
+    bg = "#13161a",
+    fg = "#739fd4"
   },
   TelescopeNormal = {
-    bg = "#0f1215",
+    bg = "#13161a",
     fg = "#E7EAEE"
   },
   TelescopePromptBorder = {
-    bg = "#0f1215",
-    fg = "#FFA75A"
+    bg = "#13161a",
+    fg = "#FF9858"
   },
   TelescopePromptTitle = {
-    bg = "#0f1215",
-    fg = "#FFA75A"
+    bg = "#13161a",
+    fg = "#FF9858"
   },
   TelescopeResultsComment = {
     fg = "#545c7e"
@@ -2546,11 +2593,11 @@ local highlights = {
   },
   Todo = {
     bg = "#5CCEFF",
-    fg = "#171B20"
+    fg = "#1D2228"
   },
   TodoCommentsDefault = {
     bg = "#2C313A",
-    fg = "#e8a0d7"
+    fg = "#e8a1d8"
   },
   TodoCommentsError = {
     bg = "#2C313A",
@@ -2558,11 +2605,11 @@ local highlights = {
   },
   TodoCommentsHint = {
     bg = "#2C313A",
-    fg = "#35e898"
+    fg = "#35e999"
   },
   TodoCommentsInfo = {
     bg = "#2C313A",
-    fg = "#55bce9"
+    fg = "#56bdea"
   },
   TodoCommentsSection = {
     bg = "#2C313A",
@@ -2570,38 +2617,38 @@ local highlights = {
   },
   TodoCommentsTest = {
     bg = "#2C313A",
-    fg = "#9f91e9"
+    fg = "#a193ea"
   },
   TodoCommentsWarning = {
     bg = "#2C313A",
-    fg = "#e8c868"
+    fg = "#e8cf65"
   },
   TreesitterContext = {
-    bg = "#3d4450"
+    bg = "#3f4552"
   },
   TroubleCount = {
     bg = "#474E5C",
     fg = "#FFAFEB"
   },
   TroubleNormal = {
-    bg = "#111418",
+    bg = "#161a1e",
     fg = "#E7EAEE"
   },
   TroubleText = {
     fg = "#a9b1d6"
   },
   Type = {
-    fg = "#FFCA74"
+    fg = "#FFCB77"
   },
   Underlined = {
     underline = true
   },
   VertSplit = {
-    fg = "#12161a"
+    fg = "#171b20"
   },
   VimwikiHR = {
     bg = "NONE",
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   VimwikiHeader1 = {
     bg = "NONE",
@@ -2616,12 +2663,12 @@ local highlights = {
   VimwikiHeader3 = {
     bg = "NONE",
     bold = true,
-    fg = "#AE9EFF"
+    fg = "#B0A0FF"
   },
   VimwikiHeader4 = {
     bg = "NONE",
     bold = true,
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   VimwikiHeader5 = {
     bg = "NONE",
@@ -2631,7 +2678,7 @@ local highlights = {
   VimwikiHeader6 = {
     bg = "NONE",
     bold = true,
-    fg = "#41F1D1"
+    fg = "#41FFDC"
   },
   VimwikiHeader7 = {
     bg = "NONE",
@@ -2641,11 +2688,11 @@ local highlights = {
   VimwikiHeader8 = {
     bg = "NONE",
     bold = true,
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   VimwikiHeaderChar = {
     bg = "NONE",
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   VimwikiLink = {
     bg = "NONE",
@@ -2653,7 +2700,7 @@ local highlights = {
   },
   VimwikiList = {
     bg = "NONE",
-    fg = "#FFA75A"
+    fg = "#FF9858"
   },
   VimwikiMarkers = {
     bg = "NONE",
@@ -2664,13 +2711,13 @@ local highlights = {
     fg = "#38FFA5"
   },
   Visual = {
-    bg = "#2f3546"
+    bg = "#33394a"
   },
   VisualNOS = {
-    bg = "#2f3546"
+    bg = "#33394a"
   },
   WarningMsg = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   WhichKey = {
     fg = "#0AE7FF"
@@ -2682,7 +2729,7 @@ local highlights = {
     fg = "#5CCEFF"
   },
   WhichKeyNormal = {
-    bg = "#111418"
+    bg = "#161a1e"
   },
   WhichKeySeparator = {
     fg = "#586172"
@@ -2694,61 +2741,61 @@ local highlights = {
     fg = "#474E5C"
   },
   WildMenu = {
-    bg = "#2f3546"
+    bg = "#33394a"
   },
   WinBar = "StatusLine",
   WinBarNC = "StatusLineNC",
   WinSeparator = {
     bold = true,
-    fg = "#12161a"
+    fg = "#171b20"
   },
   YankyPut = "Search",
   YankyYanked = "IncSearch",
   debugBreakpoint = {
-    bg = "#162f36",
+    bg = "#1b363e",
     fg = "#0AE7FF"
   },
   debugPC = {
-    bg = "#111418"
+    bg = "#161a1e"
   },
   diffAdded = {
-    bg = "#294145",
-    fg = "#14CC92"
+    bg = "#2e474b",
+    fg = "#1BB16E"
   },
   diffChanged = {
-    bg = "#181f27",
-    fg = "#00A7F5"
+    bg = "#1e252e",
+    fg = "#2AA9DF"
   },
   diffFile = {
     fg = "#5CCEFF"
   },
   diffIndexLine = {
-    fg = "#AE9EFF"
+    fg = "#B0A0FF"
   },
   diffLine = {
     fg = "#586172"
   },
   diffNewFile = {
-    bg = "#294145",
-    fg = "#85BCFF"
+    bg = "#2e474b",
+    fg = "#89BEFF"
   },
   diffOldFile = {
-    bg = "#4f212f",
-    fg = "#85BCFF"
+    bg = "#542836",
+    fg = "#89BEFF"
   },
   diffRemoved = {
-    bg = "#4f212f",
-    fg = "#ED4567"
+    bg = "#542836",
+    fg = "#ED3A5E"
   },
   dosIniLabel = "@property",
   healthError = {
-    fg = "#F5335A"
+    fg = "#F73B61"
   },
   healthSuccess = {
     fg = "#38FFA5"
   },
   healthWarning = {
-    fg = "#FFDB70"
+    fg = "#FFE26C"
   },
   helpCommand = {
     bg = "#414868",
@@ -2759,21 +2806,21 @@ local highlights = {
   },
   htmlH1 = {
     bold = true,
-    fg = "#AE9EFF"
+    fg = "#B0A0FF"
   },
   htmlH2 = {
     bold = true,
     fg = "#5CCEFF"
   },
   illuminatedCurWord = {
-    bg = "#393f4a"
+    bg = "#3a414c"
   },
   illuminatedWord = {
-    bg = "#393f4a"
+    bg = "#3a414c"
   },
   lCursor = {
     bg = "#E7EAEE",
-    fg = "#171B20"
+    fg = "#1D2228"
   },
   qfFileName = {
     fg = "#5CCEFF"

@@ -1,0 +1,46 @@
+# -----------------------------------------------------------------------------
+# Teide Alacritty Colors
+# Theme: Teide Darker
+# Upstream: https://github.com/serhez/teide.nvim/raw/main/extras/alacritty/teide_darker.toml
+# -----------------------------------------------------------------------------
+
+# Default colors
+[colors.primary]
+background = '#171B20'
+foreground = '#E7EAEE'
+
+#[colors.cursor]
+#cursor = '#E7EAEE'
+#text = '#171B20'
+
+# Normal colors
+[colors.normal]
+black = '#12161a'
+red = '#F97791'
+green = '#38FFA5'
+yellow = '#FFCB77'
+blue = '#5CCEFF'
+magenta = '#B0A0FF'
+cyan = '#0AE7FF'
+white = '#a9b1d6'
+
+# Bright colors
+[colors.bright]
+black = '#414868'
+red = '#F73B61'
+green = '#41FFDC'
+yellow = '#FFE26C'
+blue = '#89BEFF'
+magenta = '#FFAFEB'
+cyan = '#00FBFF'
+white = '#E7EAEE'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#FF9858'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#F73B61'
+

@@ -43,7 +43,7 @@ M.template = [[
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Folke Lemaitre (http://github.com/folke)</string>
+	<string>Folke Lemaitre (http://github.com/folke) and Sergio Hernandez (http://github.com/serhez)</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>name</key>

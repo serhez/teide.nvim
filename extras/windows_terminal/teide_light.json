@@ -1,8 +1,8 @@
 # Add the following object to your Windows Terminal configuration
 # https://learn.microsoft.com/en-us/windows/terminal/customize-settings/color-schemes#creating-your-own-color-scheme
 {
-    "background": "#e0e4ea",
-    "black": "#b3b6bb",
+    "background": "#d4dbe4",
+    "black": "#aaafb6",
     "blue": "#007496",
     "brightBlack": "#a1a6c5",
     "brightBlue": "#007496",
@@ -11,7 +11,7 @@
     "brightPurple": "#695b29",
     "brightRed": "#f62466",
     "brightWhite": "#4c545d",
-    "brightYellow": "#6c5800",
+    "brightYellow": "#655600",
     "cursorColor": "#4c545d",
     "cyan": "#006b77",
     "foreground": "#4c545d",
@@ -19,7 +19,7 @@
     "name": "Teide Light",
     "purple": "#be00a2",
     "red": "#f62466",
-    "selectionBackground": "#bdc2d4",
+    "selectionBackground": "#b6bdd0",
     "white": "#6172b0",
-    "yellow": "#6c5800"
+    "yellow": "#655600"
 }

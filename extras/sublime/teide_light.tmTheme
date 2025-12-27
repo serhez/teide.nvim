@@ -2,7 +2,7 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Folke Lemaitre (http://github.com/folke)</string>
+	<string>Folke Lemaitre (http://github.com/folke) and Sergio Hernandez (http://github.com/serhez)</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>name</key>
@@ -17,7 +17,7 @@
 				<key>activeGuide</key>
 				<string>#363b54</string>
 				<key>background</key>
-				<string>#e0e4ea</string>
+				<string>#d4dbe4</string>
 				<key>caret</key>
 				<string>#DBC08A</string>
 				<key>findHighlight</key>
@@ -89,7 +89,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#a25f00</string>
+				<string>#b55e00</string>
 			</dict>
 		</dict>
     <dict>
@@ -139,7 +139,7 @@
 				<key>foreground</key>
 				<string>#006b77</string>
 				<key>background</key>
-				<string>#cad8df</string>
+				<string>#bfd0d9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -150,9 +150,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6c5800</string>
+				<string>#655600</string>
 				<key>background</key>
-				<string>#d4d6d3</string>
+				<string>#c9cecd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -163,9 +163,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ce2348</string>
+				<string>#ca1e47</string>
 				<key>background</key>
-				<string>#ded1da</string>
+				<string>#d3c8d4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -354,7 +354,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#0075bd</string>
+				<string>#0074ba</string>
 			</dict>
 		</dict>
 		<dict>
@@ -365,7 +365,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6c5800</string>
+				<string>#655600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -486,7 +486,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6c5800</string>
+				<string>#655600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -554,7 +554,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#0075bd</string>
+				<string>#0074ba</string>
 			</dict>
 		</dict>
 		<dict>
@@ -620,7 +620,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6c5800</string>
+				<string>#655600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -642,7 +642,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6c5800</string>
+				<string>#655600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -686,7 +686,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#a25f00</string>
+				<string>#b55e00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -796,7 +796,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#09845d</string>
+				<string>#15975d</string>
 			</dict>
 		</dict>
 		<dict>
@@ -807,7 +807,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c42f4f</string>
+				<string>#cb304f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -818,7 +818,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#008acb</string>
+				<string>#218bb9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -829,7 +829,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#146370</string>
+				<string>#13658a</string>
 			</dict>
 		</dict>
 		<dict>
@@ -862,7 +862,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6c5800</string>
+				<string>#655600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -972,7 +972,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6c5800</string>
+				<string>#655600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1322,7 +1322,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ce2348</string>
+				<string>#ca1e47</string>
 			</dict>
 		</dict>
 		<dict>

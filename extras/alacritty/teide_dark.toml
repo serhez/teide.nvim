@@ -1,36 +1,36 @@
 # -----------------------------------------------------------------------------
 # Teide Alacritty Colors
-# Theme: Teide
-# Upstream: https://github.com/folke/teide.nvim/raw/main/extras/alacritty/teide_dark.toml
+# Theme: Teide Dark
+# Upstream: https://github.com/serhez/teide.nvim/raw/main/extras/alacritty/teide_dark.toml
 # -----------------------------------------------------------------------------
 
 # Default colors
 [colors.primary]
-background = '#171B20'
+background = '#1D2228'
 foreground = '#E7EAEE'
 
 #[colors.cursor]
 #cursor = '#E7EAEE'
-#text = '#171B20'
+#text = '#1D2228'
 
 # Normal colors
 [colors.normal]
-black = '#12161a'
+black = '#171b20'
 red = '#F97791'
 green = '#38FFA5'
-yellow = '#F7D96C'
+yellow = '#FFCB77'
 blue = '#5CCEFF'
-magenta = '#AE9EFF'
+magenta = '#B0A0FF'
 cyan = '#0AE7FF'
 white = '#a9b1d6'
 
 # Bright colors
 [colors.bright]
 black = '#414868'
-red = '#F5335A'
-green = '#86EACF'
-yellow = '#FFDB70'
-blue = '#9BEAFD'
+red = '#F73B61'
+green = '#41FFDC'
+yellow = '#FFE26C'
+blue = '#89BEFF'
 magenta = '#FFAFEB'
 cyan = '#00FBFF'
 white = '#E7EAEE'
@@ -38,9 +38,9 @@ white = '#E7EAEE'
 # Indexed Colors
 [[colors.indexed_colors]]
 index = 16
-color = '#FFA75A'
+color = '#FF9858'
 
 [[colors.indexed_colors]]
 index = 17
-color = '#F5335A'
+color = '#F73B61'
 

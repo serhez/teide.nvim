@@ -1,24 +1,24 @@
 [colors]
 foreground = "#E7EAEE"
-background = "#22282F"
+background = "#232930"
 cursor_bg = "#E7EAEE"
 cursor_border = "#E7EAEE"
-cursor_fg = "#22282F"
-selection_bg = "#363d4f"
+cursor_fg = "#232930"
+selection_bg = "#373d4f"
 selection_fg = "#E7EAEE"
 split = "#5CCEFF"
-compose_cursor = "#FFA75A"
+compose_cursor = "#FF9858"
 scrollbar_thumb = "#2C313A"
 
-ansi = ["#1b2026", "#F97791", "#38FFA5", "#F7D96C", "#5CCEFF", "#AE9EFF", "#0AE7FF", "#a9b1d6"]
-brights = ["#414868", "#F5335A", "#86EACF", "#FFDB70", "#9BEAFD", "#FFAFEB", "#00FBFF", "#E7EAEE"]
+ansi = ["#1c2126", "#F97791", "#38FFA5", "#FFCB77", "#5CCEFF", "#B0A0FF", "#0AE7FF", "#a9b1d6"]
+brights = ["#414868", "#F73B61", "#41FFDC", "#FFE26C", "#89BEFF", "#FFAFEB", "#00FBFF", "#E7EAEE"]
 
 [colors.tab_bar]
-inactive_tab_edge = "#1a1e23"
-background = "#22282F"
+inactive_tab_edge = "#1a1f24"
+background = "#232930"
 
 [colors.tab_bar.active_tab]
-fg_color = "#1a1e23"
+fg_color = "#1a1f24"
 bg_color = "#5CCEFF"
 
 [colors.tab_bar.inactive_tab]
@@ -32,14 +32,14 @@ bg_color = "#2C313A"
 
 [colors.tab_bar.new_tab_hover]
 fg_color = "#5CCEFF"
-bg_color = "#22282F"
+bg_color = "#232930"
 intensity = "Bold"
 
 [colors.tab_bar.new_tab]
 fg_color = "#5CCEFF"
-bg_color = "#22282F"
+bg_color = "#232930"
 
 [metadata]
 aliases = []
-author = "folke"
+author = "folke & serhez"
 name = "teide_dimmed"

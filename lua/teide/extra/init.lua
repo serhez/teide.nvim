@@ -83,7 +83,7 @@ function M.setup()
         .. "."
         .. info.ext
       fname = string.gsub(fname, "%.$", "") -- remove trailing dot when no extension
-      colors["_upstream_url"] = "https://github.com/folke/teide.nvim/raw/main/extras/" .. fname
+      colors["_upstream_url"] = "https://github.com/serhez/teide.nvim/raw/main/extras/" .. fname
       colors["_style_name"] = "Teide" .. style_name
       colors["_name"] = "teide_" .. style
       colors["_style"] = style

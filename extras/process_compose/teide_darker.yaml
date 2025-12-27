@@ -1,0 +1,36 @@
+style:
+  name: teide_darker
+  body:
+    fgColor: '#E7EAEE'
+    bgColor: '#111418'
+    secondaryTextColor: '#a9b1d6'
+    tertiaryTextColor: '${fg_visual}'
+    borderColor: '#474E5C'
+  stat_table:
+    keyFgColor: '#FFE26C'
+    valueFgColor: '#E7EAEE'
+    logoColor: '#FFE26C'
+  proc_table:
+    fgColor: '#5CCEFF'
+    fgWarning: '#FFE26C'
+    fgPending: '#545c7e'
+    fgCompleted: '#38FFA5'
+    fgError: '#F73B61'
+    headerFgColor: '#E7EAEE'
+  help:
+    fgColor: '#89BEFF'
+    keyColor: '#E7EAEE'
+    hlColor: '#38FFA5'
+    categoryFgColor: '#AFDBFD'
+  dialog:
+    fgColor: '#89BEFF'
+    bgColor: '#12161a'
+    contrastBgColor: '#171B20'
+    attentionBgColor: '#F73B61'
+    buttonFgColor: '#12161a'
+    buttonBgColor: '#2C313A'
+    buttonFocusFgColor: '#12161a'
+    buttonFocusBgColor: '#5CCEFF'
+    labelFgColor: '#FFE26C'
+    fieldFgColor: '#12161a'
+    fieldBgColor: '#254365'

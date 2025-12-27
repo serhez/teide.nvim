@@ -9,8 +9,8 @@ hovered         = { bg = "#2C313A" }
 preview_hovered = { bg = "#2C313A" }
 
 # Find
-find_keyword  = { fg = "#1a1e23", bg = "#FFA75A", bold = true }
-find_position = { fg = "#9DA9E7", bg = "#203b44", bold = true }
+find_keyword  = { fg = "#1a1f24", bg = "#FF9858", bold = true }
+find_position = { fg = "#9DA9E7", bg = "#213c45", bold = true }
 
 # Marker
 marker_copied   = { fg = "#86EACF", bg = "#86EACF" }
@@ -20,26 +20,26 @@ marker_selected = { fg = "#5CCEFF", bg = "#5CCEFF" }
 
 # Tab
 tab_active   = { fg = "#E7EAEE", bg = "#2C313A" }
-tab_inactive = { fg = "#474E5C", bg = "#22282F" }
+tab_inactive = { fg = "#474E5C", bg = "#232930" }
 tab_width    = 1
 
 # Count
 count_copied   = { fg = "#E7EAEE", bg = "#68C9C9" }
-count_cut      = { fg = "#E7EAEE", bg = "#F5335A" }
+count_cut      = { fg = "#E7EAEE", bg = "#F73B61" }
 count_selected = { fg = "#E7EAEE", bg = "#00648F" }
 
 # Border
 border_symbol = "│"
-border_style  = { fg = "#719ed5" }
+border_style  = { fg = "#75a0d6" }
 
 [mode]
-normal_main = { fg = "#1b2026", bg = "#5CCEFF", bold = true }
+normal_main = { fg = "#1c2126", bg = "#5CCEFF", bold = true }
 normal_alt  = { fg = "#5CCEFF", bg = "#474E5C" }
 
-select_main = { fg = "#1b2026", bg = "#FFAFEB", bold = true }
+select_main = { fg = "#1c2126", bg = "#FFAFEB", bold = true }
 select_alt  = { fg = "#FFAFEB", bg = "#474E5C" }
 
-unset_main  = { fg = "#1b2026", bg = "#F7D96C", bold = true }
+unset_main  = { fg = "#1c2126", bg = "#F7D96C", bold = true }
 unset_alt   = { fg = "#F7D96C", bg = "#474E5C" }
 
 [status]
@@ -49,19 +49,19 @@ separator_close   = ""
 
 # Progress
 progress_label  = { fg = "#a9b1d6", bold = true }
-progress_normal = { fg = "#22282F" }
+progress_normal = { fg = "#232930" }
 progress_error  = { fg = "#F97791" }
 
 # Permissions
 perm_type  = { fg = "#5CCEFF" }
-perm_read  = { fg = "#FFDB70" }
+perm_read  = { fg = "#FFE26C" }
 perm_write = { fg = "#F97791" }
 perm_exec  = { fg = "#38FFA5" }
 perm_sep   = { fg = "#414868" }
 
 [pick]
-border   = { fg = "#719ed5" }
-active   = { fg = "#E7EAEE",  bg = "#363d4f" }
+border   = { fg = "#75a0d6" }
+active   = { fg = "#E7EAEE",  bg = "#373d4f" }
 inactive = { fg = "#E7EAEE" }
 
 # Input
@@ -69,12 +69,12 @@ inactive = { fg = "#E7EAEE" }
 border   = { fg = "#9DA9E7" }
 title    = { fg = "#9DA9E7" }
 value    = { fg = "#F7D96C" }
-selected = { bg = "#363d4f" }
+selected = { bg = "#373d4f" }
 
 # Completion
 [completion]
 border   = { fg = "#9DA9E7" }
-active   = { fg = "#E7EAEE", bg = "#363d4f" }
+active   = { fg = "#E7EAEE", bg = "#373d4f" }
 inactive = { fg = "#E7EAEE" }
 
 icon_file    = ""
@@ -83,14 +83,14 @@ icon_command = ""
 
 # Tasks
 [tasks]
-border  = { fg = "#719ed5" }
-title   = { fg = "#719ed5" }
-hovered = { fg = "#E7EAEE", bg="#363d4f" }
+border  = { fg = "#75a0d6" }
+title   = { fg = "#75a0d6" }
+hovered = { fg = "#E7EAEE", bg="#373d4f" }
 
 # Which
 [which]
 cols            = 3
-mask            = { bg = "#1a1e23" }
+mask            = { bg = "#1a1f24" }
 cand            = { fg = "#0AE7FF" }
 rest            = { fg = "#5CCEFF" }
 desc            = { fg = "#FFAFEB" }
@@ -100,23 +100,23 @@ separator_style = { fg = "#586172" }
 # Confirm
 [confirm]
 border  = { fg = "#9DA9E7" }
-title   = { fg = "#719ed5" }
+title   = { fg = "#75a0d6" }
 content = {}
 list    = {}
-btn_yes = { bg = "#363d4f" }
+btn_yes = { bg = "#373d4f" }
 btn_no  = {}
 btn_labels = [ "  [Y]es  ", "  (N)o  " ]
 
 # Spot
 [spot]
-border  = { fg = "#719ed5" }
-title   = { fg = "#719ed5" }
+border  = { fg = "#75a0d6" }
+title   = { fg = "#75a0d6" }
 
 # Notify
 [notify]
 title_info  = { fg = "#0AE7FF" }
-title_warn  = { fg = "#FFDB70" }
-title_error = { fg = "#F5335A" }
+title_warn  = { fg = "#FFE26C" }
+title_error = { fg = "#F73B61" }
 
 icon_error = ""
 icon_warn = ""
@@ -127,13 +127,13 @@ icon_info = ""
 on      = { fg = "#38FFA5" }
 run     = { fg = "#FFAFEB" }
 hovered = { bg = "#2C313A" }
-footer  = { fg = "#E7EAEE", bg = "#22282F" }
+footer  = { fg = "#E7EAEE", bg = "#232930" }
 
 [filetype]
 
 rules = [
 	# Images
-	{ mime = "image/*", fg = "#FFDB70" },
+	{ mime = "image/*", fg = "#FFE26C" },
 
 	# Media
 	{ mime = "{audio,video}/*", fg = "#FFAFEB" },
