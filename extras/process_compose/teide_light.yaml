@@ -7,12 +7,12 @@ style:
     tertiaryTextColor: '${fg_visual}'
     borderColor: '#99a3b8'
   stat_table:
-    keyFgColor: '#5a5200'
+    keyFgColor: '#615724'
     valueFgColor: '#4c545d'
-    logoColor: '#5a5200'
+    logoColor: '#615724'
   proc_table:
     fgColor: '#007496'
-    fgWarning: '#5a5200'
+    fgWarning: '#615724'
     fgPending: '#8990b3'
     fgCompleted: '#00663d'
     fgError: '#c81d47'
@@ -31,6 +31,6 @@ style:
     buttonBgColor: '#c0c6d3'
     buttonFocusFgColor: '#a1a8b1'
     buttonFocusBgColor: '#007496'
-    labelFgColor: '#5a5200'
+    labelFgColor: '#615724'
     fieldFgColor: '#a1a8b1'
     fieldBgColor: '#8db4ea'

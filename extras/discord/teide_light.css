@@ -7,7 +7,7 @@
   --text-link: #007496;
   --text-link-low-saturation: #13658a;
   --text-positive: #006252;
-  --text-warning: #5a5200;
+  --text-warning: #615724;
   --text-danger: #f62466;
   --text-brand: #007496;
   --background-primary: #c9d2dd;
@@ -35,8 +35,8 @@
   --info-positive-text: #4c545d;
   --brand-500: #009bda;
   --brand-560: #007496;
-  --info-warning-background: #5a520026;
-  --info-warning-foreground: #5a5200;
+  --info-warning-background: #61572426;
+  --info-warning-foreground: #615724;
   --info-warning-text: #4c545d;
   --info-danger-background:#f6246626;
   --info-danger-foreground: #f62466;
@@ -46,24 +46,24 @@
   --info-help-text: #4c545d;
   --status-positive-background: #006252;
   --status-positive-text: #c9d2dd;
-  --status-warning-background: #5a5200;
+  --status-warning-background: #615724;
   --status-warning-text: #c9d2dd;
   --status-danger-background: #f62466;
   --status-danger-text: #c9d2dd;
   --status-danger: #f62466;
   --status-positive: #006252;
-  --status-warning: #5a5200;
-  --status-yellow-400: #5a5200;
+  --status-warning: #615724;
+  --status-yellow-400: #615724;
   --status-green-600: #006252;
   --primary-dark-600: #c9d2dd;
-  --status-yellow-560: #5a5200;
+  --status-yellow-560: #615724;
   --status-red-500: #f62466;
   --status-red-530: #f62466;
-  --status-yellow-500: #5a5200;
+  --status-yellow-500: #615724;
   --black-500: #c0c6d3;
   --green-360: #006252;
-  --yellow-360: #5a5200;
-  --yellow-300: #5a5200;
+  --yellow-360: #615724;
+  --yellow-300: #615724;
   --red-400: #f62466;
   --primary-100: #6c6aa0;
   --primary-300: #6c6aa0;
@@ -74,7 +74,7 @@
   --white-400: #4c545d;
   --white-500: #4c545d;
   --guild-boosting-pink: #bb00a0;
-  --premium-perk-yellow: #5a5200;
+  --premium-perk-yellow: #615724;
   --premium-perk-purple: #695b29;
   --premium-perk-dark-blue: #007496;
   --premium-perk-light-blue: #0074ba;
@@ -88,7 +88,7 @@
   --button-danger-background-active: #13658a;
   --button-danger-background-disabled: #f62466;
   --button-positive-background: #006252;
-  --button-positive-background-hover: #376659;
+  --button-positive-background-hover: #3a6459;
   --button-positive-background-active: #3c7a7a;
   --button-positive-background-disabled: #006252;
   --button-secondary-background: #8990b3;
@@ -110,7 +110,7 @@
   --button-outline-positive-background-hover: #00663d;
   --button-outline-positive-text-hover: #c9d2dd;
   --button-outline-positive-border-hover: #00663d;
-  --button-outline-positive-background-active: #376659;
+  --button-outline-positive-background-active: #3a6459;
   --button-outline-positive-text-active: #c9d2dd;
   --button-outline-positive-border-active: #00663d;
   --button-outline-brand-text: #4c545d;
@@ -146,8 +146,8 @@
   --control-brand-foreground-new: #007496;
   --mention-foreground: #007496;
   --mention-background: #a1a6c5;
-  --background-mentioned: #5a520019;
-  --background-mentioned-hover: #5a520014;
+  --background-mentioned: #61572419;
+  --background-mentioned-hover: #61572414;
   --background-message-hover: #d8dfe73F;
   --background-message-automod: #bb00a00C;
   --background-message-automod-hover: #bb00a019;
@@ -189,7 +189,7 @@ rect[mask="url(#svg-mask-status-online)"] {
 }
 
 rect[mask="url(#svg-mask-status-idle)"] {
-    fill: #5a5200;
+    fill: #615724;
 }
 
 rect[mask="url(#svg-mask-status-dnd)"] {
@@ -208,9 +208,9 @@ rect[mask="url(#svg-mask-status-offline)"] {
   --text-default: #6172b0;
   --color-1: #f62466;
   --color-2: #ae5d00;
-  --color-3: #5a5200;
+  --color-3: #615724;
   --color-4: #00663d;
-  --color-5: #376659;
+  --color-5: #3a6459;
   --color-6: #13658a;
   --color-7: #5873d5;
   --color-8: #006b77;

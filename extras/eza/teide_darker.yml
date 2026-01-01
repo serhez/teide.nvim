@@ -5,8 +5,8 @@ filekinds:
   directory: { foreground: "#5CCEFF" }
   symlink: { foreground: "#89BEFF" }
   pipe: { foreground: "#414868" }
-  block_device: { foreground: "#FFEF75" }
-  char_device: { foreground: "#FFEF75" }
+  block_device: { foreground: "#FAE37B" }
+  char_device: { foreground: "#FAE37B" }
   socket: { foreground: "#414868" }
   special: { foreground: "#F7D96C" }
   executable: { foreground: "#38FFA5" }
@@ -78,7 +78,7 @@ security_context:
 file_type:
   image: { foreground: "#AFDBFD" }
   video: { foreground: "#AFDBFD" }
-  music: { foreground: "#86EACF" }
+  music: { foreground: "#8FEBD3" }
   lossless: { foreground: "#68C9C9" }
   crypto: { foreground: "#F73F64" }
   document: { foreground: "#a9b1d6" }
@@ -89,7 +89,7 @@ file_type:
   source: { foreground: "#FFB3EC" }
 
 punctuation: { foreground: "#2C313A" }
-date: { foreground: "#FFEF75" }
+date: { foreground: "#FAE37B" }
 inode: { foreground: "#B9B8D3" }
 blocks: { foreground: "#B9B8D3" }
 header: { foreground: "#a9b1d6" }

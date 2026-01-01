@@ -8,10 +8,10 @@
   disabled_fg: Some("#586172"),
   diff_line_add: Some("#38FFA5"),
   diff_line_delete: Some("#F97791"),
-  diff_file_added: Some("#86EACF"),
+  diff_file_added: Some("#8FEBD3"),
   diff_file_removed: Some("#F73F64"),
   diff_file_moved: Some("#B1A2FF"),
-  diff_file_modified: Some("#FFEF75"),
+  diff_file_modified: Some("#FAE37B"),
   commit_hash: Some("#FFB3EC"),
   commit_time: Some("#41FFDC"),
   commit_author: Some("#38FFA5"),
@@ -19,5 +19,5 @@
   push_gauge_bg: Some("#232930"),
   push_gauge_fg: Some("#E7EAEE"),
   tag_fg: Some("#B1A2FF"),
-  branch_fg: Some("#FFEF75")
+  branch_fg: Some("#FAE37B")
 )

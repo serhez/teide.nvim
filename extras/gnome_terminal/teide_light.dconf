@@ -13,6 +13,6 @@ foreground-color='rgb(76, 84, 93)'
 highlight-background-color='rgb(76, 84, 93)'
 highlight-colors-set=true
 highlight-foreground-color='rgb(201, 210, 221)'
-palette=['rgb(161, 166, 197)', 'rgb(246, 36, 102)', 'rgb(0, 102, 61)', 'rgb(90, 82, 0)', 'rgb(0, 116, 150)', 'rgb(187, 0, 160)', 'rgb(0, 107, 119)', 'rgb(76, 84, 93)', 'rgb(161, 166, 197)', 'rgb(246, 36, 102)', 'rgb(0, 102, 61)', 'rgb(90, 82, 0)', 'rgb(0, 116, 150)', 'rgb(187, 0, 160)', 'rgb(0, 107, 119)', 'rgb(76, 84, 93)']
+palette=['rgb(161, 166, 197)', 'rgb(246, 36, 102)', 'rgb(0, 102, 61)', 'rgb(97, 87, 36)', 'rgb(0, 116, 150)', 'rgb(187, 0, 160)', 'rgb(0, 107, 119)', 'rgb(76, 84, 93)', 'rgb(161, 166, 197)', 'rgb(246, 36, 102)', 'rgb(0, 102, 61)', 'rgb(97, 87, 36)', 'rgb(0, 116, 150)', 'rgb(187, 0, 160)', 'rgb(0, 107, 119)', 'rgb(76, 84, 93)']
 use-theme-colors=false
 visible-name='Teide Light'

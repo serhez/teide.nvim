@@ -42,7 +42,7 @@
   --color-teide-dark-git-ignore: var(--color-teide-dark-dark3);
   --color-teide-dark-green: oklch(from #38FFA5 l c h);
   --color-teide-dark-green-bright: oklch(from #41FFDC l c h);
-  --color-teide-dark-green1: oklch(from #86EACF l c h);
+  --color-teide-dark-green1: oklch(from #8FEBD3 l c h);
   --color-teide-dark-green2: oklch(from #68C9C9 l c h);
   --color-teide-dark-hint: var(--color-teide-dark-teal);
   --color-teide-dark-info: var(--color-teide-dark-blue2);
@@ -65,6 +65,6 @@
   --color-teide-dark-teal: oklch(from #41FFDC l c h);
   --color-teide-dark-todo: var(--color-teide-dark-blue);
   --color-teide-dark-warning: var(--color-teide-dark-yellow);
-  --color-teide-dark-yellow: oklch(from #FFEF75 l c h);
-  --color-teide-dark-yellow-bright: oklch(from #FFEF75 l c h);
+  --color-teide-dark-yellow: oklch(from #FAE37B l c h);
+  --color-teide-dark-yellow-bright: oklch(from #FAE37B l c h);
 }

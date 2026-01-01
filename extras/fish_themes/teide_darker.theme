@@ -4,7 +4,7 @@
 fish_color_normal E7EAEE
 fish_color_command 0AE7FF
 fish_color_keyword FFB3EC
-fish_color_quote FFEF75
+fish_color_quote FAE37B
 fish_color_redirection E7EAEE
 fish_color_end FFA064
 fish_color_option FFB3EC

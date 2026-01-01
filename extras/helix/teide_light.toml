@@ -1,7 +1,7 @@
 attribute = { fg = "#bb00a0" }
 comment = { fg = "#828fa7", modifiers = ["italic"] }
 "comment.block.documentation" = { fg = "#3c7a7a" }
-constant = { fg = "#376659" }
+constant = { fg = "#3a6459" }
 "constant.builtin" = { fg = "#00663d" }
 "constant.builtin.boolean" = { fg = "#00663d" }
 "constant.character" = { fg = "#00663d" }
@@ -55,13 +55,13 @@ namespace = { fg = "#007496" }
 operator = { fg = "#bb00a0" }
 special = { fg = "#ae5d00" }
 string = { fg = "#00663d" }
-"string.regexp" = { fg = "#376659" }
+"string.regexp" = { fg = "#3a6459" }
 "string.special" = { fg = "#ae5d00" }
 tag = { fg = "#7e58ff" }
 type = { fg = "#7d5a00" }
 "type.builtin" = { fg = "#7d5a00" }
 "type.enum" = { fg = "#7d5a00" }
-"type.enum.variant" = { fg = "#376659" }
+"type.enum.variant" = { fg = "#3a6459" }
 "ui.background" = { bg = "bg" }
 "ui.bufferline.active" = { bg = "bg_visual", fg = "fg" }
 "ui.cursor" = { bg = "#4c545d", fg = "#c9d2dd" }
@@ -86,7 +86,7 @@ variable = { fg = "#4c545d" }
 "variable.builtin" = { fg = "#006252" }
 "variable.other.member" = { fg = "#606974" }
 "variable.parameter" = { fg = "#13658a" }
-warning = { fg = "#5a5200" }
+warning = { fg = "#615724" }
 
 [palette]
 bg = "#c9d2dd"
@@ -134,7 +134,7 @@ fg_sidebar_inactive = "#7280ba"
 "git.delete" = "#c02d4d"
 "git.ignore" = "#8990b3"
 green = "#00663d"
-green1 = "#376659"
+green1 = "#3a6459"
 green2 = "#3c7a7a"
 hint = "#006252"
 info = "#006b77"
@@ -146,7 +146,7 @@ purple = "#695b29"
 rainbow = "#00663d"
 "rainbow.2" = "#007496"
 "rainbow.3" = "#7e58ff"
-"rainbow.4" = "#5a5200"
+"rainbow.4" = "#615724"
 "rainbow.5" = "#f62466"
 "rainbow.6" = "#006252"
 "rainbow.7" = "#695b29"
@@ -169,9 +169,9 @@ teal = "#006252"
 "terminal.white" = "#6172b0"
 "terminal.white_bright" = "#4c545d"
 "terminal.yellow" = "#7d5a00"
-"terminal.yellow_bright" = "#5a5200"
+"terminal.yellow_bright" = "#615724"
 terminal_black = "#a1a6c5"
 todo = "#007496"
-warning = "#5a5200"
-yellow = "#5a5200"
+warning = "#615724"
+yellow = "#615724"
 yellow1 = "#7d5a00"

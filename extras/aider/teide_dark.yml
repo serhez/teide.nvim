@@ -11,6 +11,6 @@ completion-menu-current-bg-color: "#2C313A"
 
 tool-error-color: "#F73F64"
 tool-output-color: "#5CCEFF"
-tool-warning-color: "#FFEF75"
+tool-warning-color: "#FAE37B"
 
 user-input-color: "#38FFA5"

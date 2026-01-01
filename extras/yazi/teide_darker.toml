@@ -54,7 +54,7 @@ progress_error  = { fg = "#F73F64", bg = "#2C313A" }
 
 # Permissions
 perm_type  = { fg = "#5CCEFF" }
-perm_read  = { fg = "#FFEF75" }
+perm_read  = { fg = "#FAE37B" }
 perm_write = { fg = "#F97791" }
 perm_exec  = { fg = "#38FFA5" }
 perm_sep   = { fg = "#414868" }
@@ -115,7 +115,7 @@ title   = { fg = "#75a0d6" }
 # Notify
 [notify]
 title_info  = { fg = "#0AE7FF" }
-title_warn  = { fg = "#FFEF75" }
+title_warn  = { fg = "#FAE37B" }
 title_error = { fg = "#F73F64" }
 
 icon_error = ""
@@ -134,7 +134,7 @@ footer  = { fg = "#E7EAEE", bg = "#232930" }
 
 rules = [
 	# Images
-	{ mime = "image/*", fg = "#FFEF75" },
+	{ mime = "image/*", fg = "#FAE37B" },
 
 	# Media
 	{ mime = "{audio,video}/*", fg = "#FFB3EC" },

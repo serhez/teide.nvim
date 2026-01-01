@@ -4,7 +4,7 @@
     set -l comment 586172
     set -l red F97791
     set -l orange FFA064
-    set -l yellow FFEF75
+    set -l yellow FAE37B
     set -l green 38FFA5
     set -l purple F7D96C
     set -l cyan 0AE7FF
