@@ -28,10 +28,10 @@ This theme is a fork of [tokyonight.nvim](https://github.com/folke/tokyonight.nv
   </tr>
   <tr>
     <td width="50%">
-      <img src="https://github.com/user-attachments/assets/93949a4c-c698-473f-9651-ead915d5c5bc" />
+      <img src="https://github.com/user-attachments/assets/5095b5cb-a23f-4765-9d24-a3786ad9b177" />
     </td>
     <td width="50%">
-      <img src="https://github.com/user-attachments/assets/0e53907f-f075-47f9-8fe7-659ef5b36423" />
+      <img src="https://github.com/user-attachments/assets/512a95ef-c163-4cbc-b6e8-2ba844e7a481" />
     </td>
   </tr>
 </table>
