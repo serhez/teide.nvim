@@ -7,7 +7,7 @@ A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
 [iTerm](https://iterm2.com/) and
 [Fish](https://fishshell.com/docs/current/index.html).
 
-This theme is a fork of [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) by [folke](https://github.com/folke). The color palette is different other changes have been made to the semantic assignments of colors, but the codebase of folke's tokyonight is the pillar that has made this color scheme possible. Other than for the color palette, he deserves all the credit. I highly recommend checking out TokyoNight and his other plugins too.
+This theme is a fork of [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) by [folke](https://github.com/folke). The color palette is different other changes have been made to the semantic assignments of colors, but the codebase of folke's tokyonight is the pillar that has made this color scheme possible. He deserves all the engineering credit for this plugin. I highly recommend checking out TokyoNight and his other plugins too.
 
 <table width="100%">
   <tr>
