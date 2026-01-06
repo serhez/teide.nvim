@@ -7,7 +7,7 @@ A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
 [iTerm](https://iterm2.com/) and
 [Fish](https://fishshell.com/docs/current/index.html).
 
-This theme is a fork of [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) by [folke](https://github.com/folke). The color palette is different and minor changes have been made to the code, but the codebase of folke's tokyonight is the pillar that has made this color scheme possible. Other than for the color palette, he deserves all the credit. I highly recommend checking out TokyoNight and his other plugins too.
+This theme is a fork of [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) by [folke](https://github.com/folke). The color palette is different other changes have been made to the semantic assignments of colors, but the codebase of folke's tokyonight is the pillar that has made this color scheme possible. Other than for the color palette, he deserves all the credit. I highly recommend checking out TokyoNight and his other plugins too.
 
 <table width="100%">
   <tr>
@@ -16,10 +16,10 @@ This theme is a fork of [tokyonight.nvim](https://github.com/folke/tokyonight.nv
   </tr>
   <tr>
     <td width="50%">
-      <img src="https://github.com/user-attachments/assets/6a354696-e137-410d-a52e-453f5921d5a4" />
+      <img src="https://github.com/user-attachments/assets/bf0d761c-22f5-497a-972d-a8b08f561d07" />
     </td>
     <td width="50%">
-      <img src="https://github.com/user-attachments/assets/b72416cf-8a3a-4013-a810-1852e70df9d6" />
+      <img src="https://github.com/user-attachments/assets/d2fd8783-1d56-4e28-acb9-5ebccccd20d1" />
     </td>
   </tr>
   <tr>
@@ -28,10 +28,10 @@ This theme is a fork of [tokyonight.nvim](https://github.com/folke/tokyonight.nv
   </tr>
   <tr>
     <td width="50%">
-      <img src="https://github.com/user-attachments/assets/ad1f7ffe-c837-4e3f-99b7-e2b5627c7451" />
+      <img src="https://github.com/user-attachments/assets/93949a4c-c698-473f-9651-ead915d5c5bc" />
     </td>
     <td width="50%">
-      <img src="https://github.com/user-attachments/assets/36b84bf7-33fd-4388-b261-ba2eb837aec8" />
+      <img src="https://github.com/user-attachments/assets/0e53907f-f075-47f9-8fe7-659ef5b36423" />
     </td>
   </tr>
 </table>
