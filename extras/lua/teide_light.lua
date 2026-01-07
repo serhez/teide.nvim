@@ -79,7 +79,7 @@ local colors = {
     red_bright = "#c81d47",
     white = "#6172b0",
     white_bright = "#4c545d",
-    yellow = "#7d5a00",
+    yellow = "#ae5d00",
     yellow_bright = "#615400"
   },
   terminal_black = "#a1a6c5",

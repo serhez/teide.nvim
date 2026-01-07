@@ -10,7 +10,7 @@ split = "#5CCEFF"
 compose_cursor = "#FFA064"
 scrollbar_thumb = "#2C313A"
 
-ansi = ["#171b20", "#F97791", "#38FFA5", "#FFCB77", "#5CCEFF", "#B1A2FF", "#0AE7FF", "#a9b1d6"]
+ansi = ["#171b20", "#F97791", "#38FFA5", "#FFA064", "#5CCEFF", "#B1A2FF", "#0AE7FF", "#a9b1d6"]
 brights = ["#414868", "#F73F64", "#41FFDC", "#FFE77A", "#89BEFF", "#FFB3EC", "#00FBFF", "#E7EAEE"]
 
 [colors.tab_bar]

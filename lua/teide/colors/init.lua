@@ -86,7 +86,7 @@ function M.setup(opts)
     red_bright     = colors.red1,
     green          = colors.green,
     green_bright   = colors.teal,
-    yellow         = colors.yellow1,
+    yellow         = colors.orange,
     yellow_bright  = colors.yellow,
     blue           = colors.blue,
     blue_bright    = colors.blue1,
