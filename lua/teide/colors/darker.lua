@@ -31,10 +31,10 @@ return {
   green1 = "#8FEBD3", --#97EDD6
   green2 = "#68C9C9", --#68C9C9 --#87D4D4
   magenta = "#FFB3EC", --#F0BCF0
-  magenta2 = "#B1A2FF", --#AE9EFF
+  magenta2 = "#B2A3FF", --#AE9EFF
   orange = "#FFA064", --#FF9858 --#FFA63F
   orange1 = "#FF924E",
-  purple = "#F7D96C",
+  purple = "#A592FF",
   red = "#F97791", --#EB8884  --#FE5F55
   red1 = "#F73F64",
   teal = "#41FFDC",
