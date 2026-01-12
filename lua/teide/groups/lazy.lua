@@ -8,6 +8,7 @@ function M.get(c, opts)
   return {
     LazyProgressDone = { bold = true, fg = c.magenta2 },
     LazyProgressTodo = { bold = true, fg = c.fg_gutter },
+    LazyNormal = "Normal",
   }
 end
 
