@@ -119,7 +119,9 @@ local highlights = {
     fg = "#FFE77A"
   },
   ["@constant"] = "Constant",
-  ["@constant.builtin"] = "Boolean",
+  ["@constant.builtin"] = {
+    fg = "#41FFDC"
+  },
   ["@constant.macro"] = "Define",
   ["@constructor"] = {
     fg = "#FFA064"
@@ -1284,6 +1286,7 @@ local highlights = {
     fg = "#B1A2FF",
     italic = true
   },
+  LazyNormal = "Normal",
   LazyProgressDone = {
     bold = true,
     fg = "#B1A2FF"
@@ -1404,6 +1407,7 @@ local highlights = {
     bg = "#2b313c",
     bold = true
   },
+  MasonNormal = "Normal",
   MatchParen = {
     bold = true,
     fg = "#FF924E"
@@ -2439,16 +2443,21 @@ local highlights = {
     bg = "#232930",
     fg = "#E7EAEE"
   },
+  SnacksPicker = "Normal",
+  SnacksPickerBorder = {
+    bg = "#232930",
+    fg = "#FF924E"
+  },
   SnacksPickerBoxTitle = {
-    bg = "#171b1f",
+    bg = "#232930",
     fg = "#FF924E"
   },
   SnacksPickerInputBorder = {
-    bg = "#171b1f",
+    bg = "#232930",
     fg = "#FF924E"
   },
   SnacksPickerInputTitle = {
-    bg = "#171b1f",
+    bg = "#232930",
     fg = "#FF924E"
   },
   SnacksPickerPickWin = {
@@ -2461,6 +2470,7 @@ local highlights = {
     bold = true,
     fg = "#E7EAEE"
   },
+  SnacksPickerPreview = "NormalFloat",
   SnacksPickerSelected = {
     fg = "#B1A2FF"
   },
