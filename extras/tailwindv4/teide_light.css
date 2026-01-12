@@ -48,9 +48,9 @@
   --color-teide-light-info: var(--color-teide-light-blue2);
   --color-teide-light-magenta: oklch(from #bb00a0 l c h);
   --color-teide-light-magenta-bright: oklch(from #bb00a0 l c h);
-  --color-teide-light-magenta2: oklch(from #7e58ff l c h);
+  --color-teide-light-magenta2: oklch(from #7e57ff l c h);
   --color-teide-light-orange: oklch(from #ae5d00 l c h);
-  --color-teide-light-purple: oklch(from #695b29 l c h);
+  --color-teide-light-purple: oklch(from #8665ff l c h);
   --color-teide-light-rainbow1: var(--color-teide-light-blue);
   --color-teide-light-rainbow2: var(--color-teide-light-yellow);
   --color-teide-light-rainbow3: var(--color-teide-light-green);

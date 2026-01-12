@@ -6,7 +6,7 @@
     set -l orange ae5d00
     set -l yellow 615400
     set -l green 00663d
-    set -l purple 695b29
+    set -l purple 8665ff
     set -l cyan 006b77
     set -l pink bb00a0
 

@@ -8,7 +8,7 @@ filekinds:
   block_device: { foreground: "#FFE77A" }
   char_device: { foreground: "#FFE77A" }
   socket: { foreground: "#414868" }
-  special: { foreground: "#F7D96C" }
+  special: { foreground: "#A592FF" }
   executable: { foreground: "#38FFA5" }
   mount_point: { foreground: "#AFDBFD" }
 
@@ -21,25 +21,25 @@ perms:
   group_write: { foreground: "#FFA064" }
   group_execute: { foreground: "#38FFA5" }
   other_read: { foreground: "#89BEFF" }
-  other_write: { foreground: "#B1A2FF" }
+  other_write: { foreground: "#B2A3FF" }
   other_execute: { foreground: "#38FFA5" }
-  special_user_file: { foreground: "#B1A2FF" }
+  special_user_file: { foreground: "#B2A3FF" }
   special_other: { foreground: "#F73F64" }
   attribute: { foreground: "#B9B8D3" }
 
 size:
   major: { foreground: "#89BEFF" }
-  minor: { foreground: "#F7D96C" }
+  minor: { foreground: "#A592FF" }
   number_byte: { foreground: "#a9b1d6" }
   number_kilo: { foreground: "#AFDBFD" }
   number_mega: { foreground: "#89BEFF" }
   number_giga: { foreground: "#FFA064" }
-  number_huge: { foreground: "#B1A2FF" }
+  number_huge: { foreground: "#B2A3FF" }
   unit_byte: { foreground: "#a9b1d6" }
   unit_kilo: { foreground: "#AFDBFD" }
   unit_mega: { foreground: "#89BEFF" }
   unit_giga: { foreground: "#FFA064" }
-  unit_huge: { foreground: "#B1A2FF" }
+  unit_huge: { foreground: "#B2A3FF" }
 
 users:
   user_you: { foreground: "#00648F" }
@@ -73,7 +73,7 @@ security_context:
   user: { foreground: "#B9B8D3" }
   role: { foreground: "#89BEFF" }
   typ: { foreground: "#00648F" }
-  range: { foreground: "#F7D96C" }
+  range: { foreground: "#A592FF" }
 
 file_type:
   image: { foreground: "#AFDBFD" }
@@ -94,9 +94,9 @@ inode: { foreground: "#B9B8D3" }
 blocks: { foreground: "#B9B8D3" }
 header: { foreground: "#a9b1d6" }
 octal: { foreground: "#FFA064" }
-flags: { foreground: "#F7D96C" }
+flags: { foreground: "#A592FF" }
 
 symlink_path: { foreground: "#AFDBFD" }
 control_char: { foreground: "#FFA064" }
-broken_symlink: { foreground: "#B1A2FF" }
-broken_path_overlay: { foreground: "#B1A2FF" }
+broken_symlink: { foreground: "#B2A3FF" }
+broken_path_overlay: { foreground: "#B2A3FF" }

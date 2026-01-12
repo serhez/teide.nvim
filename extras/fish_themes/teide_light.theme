@@ -9,7 +9,7 @@ fish_color_redirection 4c545d
 fish_color_end ae5d00
 fish_color_option bb00a0
 fish_color_error f62466
-fish_color_param 695b29
+fish_color_param 8665ff
 fish_color_comment 828fa7
 fish_color_selection --background=b6bdd0
 fish_color_search_match --background=b6bdd0

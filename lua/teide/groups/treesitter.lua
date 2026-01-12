@@ -19,7 +19,7 @@ function M.get(c, opts)
     ["@comment.todo"]               = { fg = c.todo },
     ["@comment.warning"]            = { fg = c.warning },
     ["@constant"]                   = "Constant",
-    ["@constant.builtin"]           = "Boolean",
+    ["@constant.builtin"]           = { fg = c.teal },
     ["@constant.macro"]             = "Define",
     ["@constructor"]                = { fg = c.orange }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
     ["@constructor.builtin"]        = { fg = c.orange }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.

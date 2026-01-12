@@ -39,8 +39,8 @@ normal_alt  = { fg = "#5CCEFF", bg = "#474E5C" }
 select_main = { fg = "#12161a", bg = "#FFB3EC", bold = true }
 select_alt  = { fg = "#FFB3EC", bg = "#474E5C" }
 
-unset_main  = { fg = "#12161a", bg = "#F7D96C", bold = true }
-unset_alt   = { fg = "#F7D96C", bg = "#474E5C" }
+unset_main  = { fg = "#12161a", bg = "#A592FF", bold = true }
+unset_alt   = { fg = "#A592FF", bg = "#474E5C" }
 
 [status]
 overall   = { fg = "#E7EAEE", bg = "#111418" }
@@ -68,7 +68,7 @@ inactive = { fg = "#E7EAEE" }
 [input]
 border   = { fg = "#9DA9E7" }
 title    = { fg = "#9DA9E7" }
-value    = { fg = "#F7D96C" }
+value    = { fg = "#A592FF" }
 selected = { bg = "#2f3546" }
 
 # Completion

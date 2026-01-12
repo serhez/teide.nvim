@@ -9,7 +9,7 @@ fish_color_redirection E7EAEE
 fish_color_end FFA064
 fish_color_option FFB3EC
 fish_color_error F97791
-fish_color_param F7D96C
+fish_color_param A592FF
 fish_color_comment 586172
 fish_color_selection --background=33394a
 fish_color_search_match --background=33394a

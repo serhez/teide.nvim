@@ -75,7 +75,7 @@
   --white-500: #4c545d;
   --guild-boosting-pink: #bb00a0;
   --premium-perk-yellow: #615400;
-  --premium-perk-purple: #695b29;
+  --premium-perk-purple: #8665ff;
   --premium-perk-dark-blue: #007496;
   --premium-perk-light-blue: #0074ba;
   --premium-perk-blue: #007496;
@@ -172,7 +172,7 @@
   --interactive-active: #4c545d;
   --search-popout-option-non-text-color: #6172b0;
   --__spoiler-background-color--hidden: #8db4ea;
-  --__spoiler-warning-background-color: #695b29;
+  --__spoiler-warning-background-color: #8665ff;
 }
 
 div[class*="autocomplete_"] {

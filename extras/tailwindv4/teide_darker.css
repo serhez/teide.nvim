@@ -48,9 +48,9 @@
   --color-teide-darker-info: var(--color-teide-darker-blue2);
   --color-teide-darker-magenta: oklch(from #FFB3EC l c h);
   --color-teide-darker-magenta-bright: oklch(from #FFB3EC l c h);
-  --color-teide-darker-magenta2: oklch(from #B1A2FF l c h);
+  --color-teide-darker-magenta2: oklch(from #B2A3FF l c h);
   --color-teide-darker-orange: oklch(from #FFA064 l c h);
-  --color-teide-darker-purple: oklch(from #F7D96C l c h);
+  --color-teide-darker-purple: oklch(from #A592FF l c h);
   --color-teide-darker-rainbow1: var(--color-teide-darker-blue);
   --color-teide-darker-rainbow2: var(--color-teide-darker-yellow);
   --color-teide-darker-rainbow3: var(--color-teide-darker-green);
